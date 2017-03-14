@@ -1,0 +1,30 @@
+
+body {
+	padding-top:5%;
+	padding-bottom:7%;
+	padding-left:4%;
+	padding-right:4%;
+	font-family:helvetica, arial, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+}
+
+
+.slider {
+    margin: 30px auto;
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 360px;
+    height: 5%;
+/*    background: #e6e3e3;*/
+/*    background: red;*/
+    border-radius: 4px;
+    }
+
+.mySlider {
+    width: 100px;
+    margin-top: 50px;
+}
+.container {
+    margin-top: 50px;
+}
