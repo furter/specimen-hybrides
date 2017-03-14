@@ -1,2 +1,2 @@
 # specimen-hybrides
-Workshop specimen hybrides eracom 2017
+Workshop specimen hybrides eracom GR341 2017
