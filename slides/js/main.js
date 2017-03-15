@@ -49,4 +49,26 @@ $(document).ready(function () {
             }, 'slow');
         }
     });
+    function randomTxt()
+{
+    arr = ['Do you believe in God?', 'Oh, you MAN', 'Quilty! Quilty?', 'forget about it'];
+    return arr[Math.floor(Math.random() * 4)];
+}
+
+
+
+
+    wordsrun();
+
+function wordsrun() {
+    var num = 0, wds = document.getElementById('container');
+    window.setInterval(function () {
+        // increase by num 1, reset to 0 at 4
+        num = (num + 1) % 4;
+$("#container").html(randomTxt())
+
+    }, 2000); // repeat forever, polling every 3 seconds
+
+}
 });
+

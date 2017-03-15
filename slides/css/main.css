@@ -1,3 +1,7 @@
+@import url(http://openfontlibrary.org/face/grupo3);
+
+
+
 @font-face {
     font-family: 'Solide Mirage_Etroit';
     src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
@@ -9,6 +13,23 @@
     font-weight: normal;
     font-style: normal;
 }
+/*initialise default browsers settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+p {
+  margin: 0px;
+}
+
 .slider-wrap {
     position: relative;
     width: 100%;
@@ -46,18 +67,20 @@
     height: 100vh;
 }
 .blue {
-  
   background-size: cover;
-  background-image:url('../img/glyphes2.gif');
-  color:white;
-  font-size: 8em;
-  text-align:center;
-  line-height:auto;
+  background-color:black;
+  color:#ffcce6;
+}
+.inside-slide {
+  position: absolute;
+  top: 50vh;
+  margin-top: -150px;
+  width: 100%;
 }
 .blue p {
-    position: absolute;
-    top: 50vh;
-    margin-top: -150px;
+    font-family: 'Solide Mirage_Etroit';
+    font-size: 8em;
+  text-align:center;
 }
 
 .first{
@@ -80,10 +103,45 @@
 .yellow {
   
   background-size: cover;
-  background-color:blue;
+  background-color:#ffcce6;
   background-image:url('../img/glyphes2.gif');
   color:white;
   font-size: 8em;
   text-align:center;
   line-height:auto;
+}
+
+.pink p { 
+   font-family:'Solide Mirage_Etroit'; 
+   font-weight: normal; 
+   font-style: normal;
+   font-size: 5.6em;
+   padding: 10% 13%;
+   text-align: center;
+   color: #170B3B;
+   line-height: 105%;
+}
+
+p:focus {
+  outline: none;
+}
+
+#container {
+  font-family:'Solide Mirage_Etroit'; 
+  position:absolute;
+    top: 50vh;
+    margin-top: -130px;
+    font-size:5em;
+    text-align:center;
+
+
+}
+
+.orange p {
+  font-family:'Solide Mirage_Etroit';
+
+  
+    
+    
+
 }
