@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*initialise default browsers settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+body {
+  font-family: 'montserratmedium';
+  font-size: 12px;
+}
+nav {
+  width: 100%;
+}
+.outils {
+  width: 60%;
+  background-color: yellow;
+  display: inline-block;
+}
+.outils-1 {
+
+}
+.outil-element {
+  display: inline-block;
+  padding: 5px;
+}
+.compo {
+  width: 30%;
+  background-color: white;
+  display: inline-block;
+  padding: 5px;
+}
+.inside {
+  position: absolute;
+  background-color: white;
+}
+.inside li {
+  list-style: none;
+}
