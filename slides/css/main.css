@@ -145,3 +145,17 @@ p:focus {
     
 
 }
+.violet{
+  background-color:#ffcce6;
+}
+
+.violet p{
+   font-family:'Solide Mirage_Etroit'; 
+   font-weight: normal; 
+   font-style: normal;
+   font-size: 5.6em;
+   padding: 10% 13%;
+   text-align: center;
+   color: black;
+   line-height: 105%;
+}
