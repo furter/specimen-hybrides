@@ -63,7 +63,7 @@ p {
 }
 .slider-slide-wrap {
     position: absolute;
-    width: 680px;
+    width: 100vw;
     height: 100vh;
 }
 .blue {
@@ -101,7 +101,7 @@ p {
 }
 
 .yellow {
-  
+
   background-size: cover;
   background-color:#ffcce6;
   background-image:url('../img/glyphes2.gif');
@@ -111,9 +111,9 @@ p {
   line-height:auto;
 }
 
-.pink p { 
-   font-family:'Solide Mirage_Etroit'; 
-   font-weight: normal; 
+.pink p {
+   font-family:'Solide Mirage_Etroit';
+   font-weight: normal;
    font-style: normal;
    font-size: 5.6em;
    padding: 10% 13%;
@@ -127,7 +127,7 @@ p:focus {
 }
 
 #container {
-  font-family:'Solide Mirage_Etroit'; 
+  font-family:'Solide Mirage_Etroit';
   position:absolute;
     top: 50vh;
     margin-top: -130px;
@@ -140,9 +140,9 @@ p:focus {
 .orange p {
   font-family:'Solide Mirage_Etroit';
 
-  
-    
-    
+
+
+
 
 }
 .violet{
@@ -150,8 +150,8 @@ p:focus {
 }
 
 .violet p{
-   font-family:'Solide Mirage_Etroit'; 
-   font-weight: normal; 
+   font-family:'Solide Mirage_Etroit';
+   font-weight: normal;
    font-style: normal;
    font-size: 5.6em;
    padding: 10% 13%;

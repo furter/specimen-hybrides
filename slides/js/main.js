@@ -7,14 +7,14 @@ $(document).ready(function () {
     $('.slide-wrap').css({
         'width': newwidth
     });
-
+/*
     $(".slider-slide-wrap").each(function (i) {
         var thiswid = 680;
         $(this).css({
             'left': thiswid * i
         });
 
-    });
+    });*/
     /*on scroll move the indicator 'shown' class to the
     most visible slide on viewport
     */
@@ -23,7 +23,7 @@ $(document).ready(function () {
         $(".slider-slide-wrap").each(function (i) {
             var posLeft = $(this).position().left
             var w = $(this).width();
-           
+
             if (scrollLeft >= posLeft && scrollLeft < posLeft + w) {
               $(this).addClass('shown').siblings().removeClass('shown');
             }
@@ -71,4 +71,3 @@ $("#container").html(randomTxt())
 
 }
 });
-
