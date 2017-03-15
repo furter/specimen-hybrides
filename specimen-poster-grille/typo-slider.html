@@ -18,12 +18,12 @@
         <nav>
   <div class="outils">
     <div class="outil-1">
-      <div class="outil-element">
         <div class="typographie">
           <p class="menu-title">typographie</p>
           <ul class="inside">
+              
               <li class="biryani" onclick="function()"><a href="#">Biryani</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="ultralightbiryani">ultralight</li>
                   <li class="lightbiryani">light</li>
                   <li class="regularbiryani">regular</li>
@@ -34,7 +34,7 @@
                 </ul>
 
               <li class="roboto" onclick="function()"><a href="#">Roboto Slab</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="thinroboto">thin</li>
                   <li class="lightroboto">light</li>
                   <li class="regularroboto">regular</li>
@@ -42,7 +42,7 @@
                 </ul>
 
               <li class="montserrat" onclick="function()"><a href="#">Montserrat</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="italicmontserra">italic</li>
                   <li class="mediummontserra">medium</li>
                   <li class="mediumitalicmontserra">medium italic</li>
@@ -55,7 +55,7 @@
                 </ul>        
 
               <li class="playfair" onclick="function()"><a href="#">Playfair Display</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="regularPlayfair">regular</li>
                   <li class="italicPlayfair">italic</li>
                   <li class="boldPlayfair">bold</li>
@@ -65,43 +65,28 @@
                 </ul>
 
               <li class="bluu" onclick="function()"><a href="#">Bluu</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="boldbluu">bold</li>
                   <li class="bolditalicbluu">bold italic</li>
                 </ul>
 
               <li class="Terminal" onclick="function()"><a href="#">Terminal Grotesk Open</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="regularterminal">regular</li>
                 </ul>
 
               <li class="bagnard" onclick="function()"><a href="#">Bagnard Sans</a></li>
-                <ul class="inside">
+                <ul class="sub-inside">
                   <li class="regularbagnard">regular</li>
                 </ul>
 
           </ul>
         </div>
-        <div class="style">
-          <p class="menu-title">style</p>
-          <ul class="inside">
-              <li><a href="#">Regular</a></li>
-              <li><a href="#">Regular Italic</a></li>
-              <li><a href="#">Light</a></li>           
-              <li><a href="#">Light Italic</a></li>
-              <li><a href="#">Bold</a></li>
-              <li><a href="#">Bold Italic</a></li>
-              <li><a href="#">Black</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="outil-element">
         <div class="typographie">
           <p class="menu-title">
             corps
           </p>
           <ul class="inside">
-
               <li class="font-size-1" onclick="function()"><a href="#">10pts</a></li>
               <li class="font-size-2" onclick="function()"><a href="#">14pts</a></li>
               <li class="font-size-3" onclick="function()"><a href="#">16pts</a></li>
@@ -132,12 +117,10 @@
               <li class="line-height-10" onclick="function()"><a href="#">48pts</a></li>
           </ul>
         </div>
-      </div>
-      <div class="outil-element">
         <div class="style">
           <p class="menu-title">Interlettrage</p>
           <ul class="inside">
-              <li class="letter-space-1" onclick="function()"><a href="#">(6)</a></li>
+              <li class="letter-space-1" onclick="function()"><a href="#">(0)</a></li>
               <li class="letter-space-2" onclick="function()"><a href="#">(8)</a></li>
               <li class="letter-space-3" onclick="function()"><a href="#">(12)</a></li>
               <li class="letter-space-4" onclick="function()"><a href="#">(14)</a></li>
@@ -148,32 +131,70 @@
         </div>
         <div class="style">
           <p class="menu-title">Alignement</p>
-          <ul class="inside">
-               <li class="text-align-1" onclick="function()"><a href="#">gauche</a></li>
-               <li class="text-align-2" onclick="function()"><a href="#">centré</a></li>
-               <li class="text-align-3" onclick="function()"><a href="#">droite</a></li>  
+          <ul class="inside align-buttons">
+              <li class="text-align-1" onclick="function()"><a href="#"><img src="img/vignettes.jpg"></a></li>
+              <li class="text-align-2" onclick="function()"><a href="#"><img src="img/vignettes2.jpg"></a></li>
+              <li class="text-align-3" onclick="function()"><a href="#"><img src="img/vignettes3.jpg"></a></li>   
           </ul>
         </div>
+        <div class="style">
+          <p class="menu-title">Images</p>
+          <ul class="inside align-buttons">
+              <li><a href="#"><img src="img/(...).jpg"></a></li>
+              <li><a href="#"><img src="img/(...).jpg"></a></li>
+              <li><a href="#"><img src="img/(...).jpg"></a></li>   
+          </ul>
+        </div>
+      </div><!--fin outil-1-->
+    </div><!--fin outils-->
+
+
+
+<div class="compo">
+  <div class="compo-1">
+    <div class="composition">
+      <p class="menu-title">Composition</p>
+      <ul class="inside align-buttons">
+          <li><a href="#"><img src="img/grilles.jpg"></a></li>
+          <li><a href="#"><img src="img/grilles2.jpg"></a></li>
+          <li><a href="#"><img src="img/grilles3.jpg"></a></li>  
+      </ul>
+  </div>
+  </div>
+</div><!-- fin compo -->
+</nav>
+
+<div class="compo-1_resultat" style="width: 800px; height: 1100px; border: 2px solid black; margin:auto">
+  <div class="case-1">
+    <div class="container">
+      <p class="bagnard" contenteditable="true" spellcheck="false">change my type!!</p>
+    </div>
+  </div>  
+  <div class="case-2">
+    <div class="container">
+      <p class="bagnard" contenteditable="true" spellcheck="false">Pourquoi ça marche pas?</p>
+    </div>
+  </div>  
+ <div style="display: inline-block"> 
+  <div class="case-3">
+    <div class="container">
+      <p class="bagnard" contenteditable="true" spellcheck="false">OUI?</p>
       </div>
+    </div>
+    <div class="case-4">
+    <div class="container">
+      <p class="bagnard" contenteditable="true" spellcheck="false">NON?</p>
       </div>
     </div>
   </div>
-  <div class="compo">
-  composition
-    <ul class="inside">
-      <li>Image Grille-1</li>
-      <li>Image Grille-2</li>
-      <li>Image Grille-3</li>
-    </ul>
-  </div>
-</nav>
-
-
-
-
-<div class="container">
-    <p class="bagnard" contenteditable="true" spellcheck="false">QUAND C'EST ECRIT EN GRAND, ON VOIT MIEUX</p>
+  <div class="case-5">
+    <div class="container">
+      <p class="bagnard" contenteditable="true" spellcheck="false">FINI!</p>
+    </div>
+  </div>  
 </div>
+
+
 
 
 

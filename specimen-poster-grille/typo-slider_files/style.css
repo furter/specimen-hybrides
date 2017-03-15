@@ -340,12 +340,6 @@
 
 
 
-
-
-
-
-
-
 /*initialise default browsers settings*/
 * {
     margin: 0;
@@ -358,35 +352,119 @@ div {
     display: block;
     page-break-inside:avoid;
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: black;
+}
 body {
   font-family: 'montserratmedium';
-  font-size: 12px;
+  font-size: 20px;
 }
+
 nav {
   width: 100%;
+  padding: 10px;
 }
 .outils {
-  width: 60%;
-  background-color: yellow;
+  background-color: none;
   display: inline-block;
 }
 .outils-1 {
-
+  width: 100%;
 }
+.outil-1 div {
+  width: 150px;
+  display: inline-block;
+} 
+
 .outil-element {
   display: inline-block;
-  padding: 5px;
+  margin: 0px;
 }
+
 .compo {
-  width: 30%;
-  background-color: white;
+  background-color: none;
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
 }
+
+.compo-1 {
+  width: 100%;
+}
+
+.compo-element {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
 .inside {
   position: absolute;
   background-color: white;
+  border: 2px solid black;
+  margin-left: 5px;
+  padding: 5px 5px 2px 5px;
+}
+.sub-inside {
 }
 .inside li {
   list-style: none;
 }
+.align-buttons li {
+  display: inline-block;
+  margin: 10px;
+}
+.menu-title {
+  border: 2px solid black;
+  margin: 0px 10px 5px 5px;
+  padding: 5px 5px 2px 5px;
+}
+
+
+.compo-1-resultat2 {
+  border: 2px solid black;
+  width: 800px;
+  height: 1100px;
+  margin:auto;
+}
+.compo-1_resultat div {
+  overflow: hidden;
+}
+.case-1 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 300px; 
+  height: 400px;  
+}
+.case-2 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 491px;
+  height: 400px;
+ 
+}
+.case-3 {
+  border: 1px solid black;
+  width: 400px;
+  height: 350px;
+  
+}
+.case-4 {
+  border: 1px solid black;
+  width: 400px;
+  height: 350px;
+
+}
+.case-5 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 300px;
+  height: 700px;
+  top: -300px;
+}
+
+
+
+
+
+

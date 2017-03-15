@@ -6,10 +6,11 @@ $(document).ready(function(){
     $('.menu-title').click(function() {
         $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
     });
+    $('.sub-inside').hide();
 
 
     $('.biryani').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
+     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
     });
 
      $('.ultralightbiryani').click(function() {
@@ -39,7 +40,7 @@ $(document).ready(function(){
 
 
 $('.roboto').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
+     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
  });
 
      $('.thinroboto').click(function() {
@@ -62,7 +63,7 @@ $('.roboto').click(function() {
 
 
 $('.montserrat').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
+     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
  });
 
      $('.italicmontserra').click(function() {
@@ -104,7 +105,7 @@ $('.montserrat').click(function() {
 
 
     $('.playfair').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
+     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
  });
 
      $('.regularPlayfair').click(function() {
@@ -136,7 +137,7 @@ $('.montserrat').click(function() {
 
 
 $('.bluu').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
+     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
  });
      $('.boldbluu').click(function() {
      $('.container').css('font-family', 'bluu')
@@ -153,7 +154,7 @@ $('.bluu').click(function() {
 
 
 $('.Terminal').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
+     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
  });
      $('.regularterminal').click(function() {
      $('.container').css('font-family', 'terminal_grotesque_openRg')
@@ -253,7 +254,7 @@ $('.line-height-10').click(function() {
 
 
 $('.letter-space-1').click(function() {
-     $('.container').css('letter-spacing', '5px')
+     $('.container').css('letter-spacing', '0px')
  });
 $('.letter-space-2').click(function() {
      $('.container').css('letter-spacing', '8px')
