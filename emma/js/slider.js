@@ -2,15 +2,15 @@ $(document).ready(function(){
     $(".mySlider").slider({
       min: 8,
       max: 150,
-      value: 16,
+      value: 50,
       orientation: "horizontal",
     });
 
     var fontSize = $( ".mySlider" ).slider("value");
-    $(".container-slide").css('font-size',fontSize);
+    $(".container").css('font-size',fontSize);
 
     $(".mySlider").on( "slide", function() {
       var fontSize = $( ".mySlider" ).slider("value");
-      $(".container-slide").css('font-size',fontSize);
+      $(".container").css('font-size',fontSize);
     });
 });

@@ -31,6 +31,8 @@
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     border: 0px solid #000;
     background: #000 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+    color: #1c94c4;
 }
 .ui-slider-horizontal .ui-slider-handle {
     top: -.45em;
