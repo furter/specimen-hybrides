@@ -9,16 +9,15 @@
 	}
 
  	@page {
-	 margin-top: 1cm;
-	 margin-bottom: 1cm;
+	 margin-top: 1.2cm;
+	 margin-bottom: 0cm;
 	 margin-left: 3cm;
 	 margin-right: 3cm;
 	}
 
-
 	.chapter {
      page-break-before: always; // AVANT L’ÉLÉMENT
-  }
+  	}
 
   img {
      page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
@@ -26,7 +25,9 @@
 
 	body {
 		overflow-wrap: break-word;
+
 		text-align: center;
+
 	}
 
 	h1, .arrows {
@@ -37,7 +38,7 @@
 	h2 {
 		font-family: 'petit_formal_scriptregular';
 		font-size: 15px;
-		margin-bottom: -1cm;
+		margin-bottom: -1.5cm;
 		page-break-before: always;
 	}
 
@@ -53,7 +54,6 @@
 		line-height: 95px;
 		page-break-before: avoid;
 		padding-bottom: 30px;
-		position: relative;
 	}
 
 	.lilgroteskregularplus {
@@ -61,19 +61,18 @@
 		font-size: 65px;
 		line-height: 50px;
 		page-break-after: avoid;
-		padding-top: 8px;
+		padding-top: 0.25cm;
 		padding-bottom: 10px;
-		position: relative;
+		
 	}
 
 	.lilgroteskregularplusplus {
 		font-family: 'lilgroteskregular';
 		font-size: 40px;
 		page-break-after: avoid;
-		padding-bottom: 30px;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 	}
 
 	.lilgroteskregularplusplusplus{
@@ -83,7 +82,7 @@
 		padding-bottom: 30px;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 
 	}
 
@@ -94,18 +93,60 @@
 		page-break-after: avoid;
 		padding-top: 8px;
 		padding-bottom: 10px;
-		position: relative;
+		
 		}
 
 
 
+	.lilgroteskbold {
+		font-family: 'lilgroteskbold';
+		font-size: 90px;
+		line-height: 95px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		
+	}
 
+	.lilgroteskboldplus {
+		font-family: 'lilgroteskbold';
+		font-size: 65px;
+		line-height: 50px;
+		page-break-after: avoid;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		
+	}
 
+	.lilgroteskboldplusplus {
+		font-family: 'lilgroteskbold';
+		font-size: 40px;
+		page-break-after: avoid;
+		padding-bottom: 30px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		
+	}
 
-	  img {
-	     page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
-	  }
+	.lilgroteskboldplusplusplus{
+		font-family: 'lilgroteskbold';
+		font-size: 22px;
+		page-break-after: avoid;
+		padding-bottom: 30px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		
 
+	}
+
+	.lilgroteskboldplusplusplusplus
+		{
+		font-family: 'lilgroteskbold';
+		font-size: 10px;
+		page-break-after: avoid;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		
+		}
 
 
 }

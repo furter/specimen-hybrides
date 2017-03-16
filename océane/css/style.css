@@ -46,6 +46,14 @@ img{
   padding-bottom: 0px;
 }
 
+.shakes:hover {
+	color: pink;
+	overflow: visible;
+}
+.shakes {
+	overflow: visible;
+}
+
 .monotype{
  	font-family: 'solide_miragemono' !important;
  }
@@ -72,8 +80,6 @@ img{
  	text-align: center;
 	font-size: 20px;
 	padding-bottom: 100px;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 .etroit{
  	font-family: 'solide_mirageetroit' !important;
@@ -165,7 +171,29 @@ a {
 a:hover {
 	text-decoration: none;
 	/*border-bottom: 1px solid #312e2a;*/
+			}
+
+
+.slider {
+    margin: 30px auto;
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 360px;
+    height: 5%;
+/*    background: #e6e3e3;*/
+/*    background: red;*/
+    border-radius: 4px;
+    }
+
+.mySlider {
+    width: 100px;
+    margin-top: 50px;
+    
 }
+.container {
+    margin-top: 50px;
+}
+
 
 .left {
 	float: left;
@@ -184,7 +212,7 @@ a:hover {
 
 #header {
 	font-family: 'petit_formal_scriptregular';
-	height: 150px;
+	height: 100px;
 	width: 100%;
 	display: table;
 	color: #000;
@@ -491,9 +519,12 @@ h1 {
 
 h2 {
     text-align: left;
+    background-color: #fff;
+    z-index: 1;
     color: black;
     padding: 7px;
     border: 1px solid #000;
+    position: fixed;
 }
 h3 {
 	font-size: 16px;
@@ -525,14 +556,17 @@ article {
 }
 .project .header-block {
 	padding-bottom: 10px;
+	padding-top: 50px;
 }
 .project .header-block h2 {
 	font-family: 'petit_formal_scriptregular';
 	font-size: 20px;
 	line-height: auto;
 	display: inline-block;
+	position: absolute;
 	height: auto;
 	width: auto;
+	margin-top: -50px;
 	margin-bottom: 30px;
 	margin-left: -30px;
 }
@@ -582,6 +616,7 @@ article {
 	overflow: hidden;
 }
 .page-home .grid-container {
+	vertical-align:top;
 	display: table-cell;
 	width: 420px;
 	min-width: 420px;
@@ -600,6 +635,8 @@ article {
     background-position: top left;
     background-repeat: repeat;*/
 }
+
+
 .page-home .project .text-block p {
 	font-size: 16px;
 	line-height: 22px;
@@ -674,7 +711,6 @@ article {
 		display: block;
 	}
 }
-
 
 
 @-webkit-keyframes hvr-buzz-out {
@@ -800,6 +836,5 @@ article {
 
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 
 
