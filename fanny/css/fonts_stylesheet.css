@@ -1,0 +1,137 @@
+/* FONTS */
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold';
+    src: url('fonts/nimbusromno9l-med-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-med-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-med-webfont.svg#nimbus_roman_no9_lbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    src: url('fonts/nimbusromno9l-medita-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-medita-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-medita-webfont.svg#nimbus_roman_no9_lbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lregular';
+    src: url('fonts/nimbusromno9l-reg-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-reg-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-reg-webfont.svg#nimbus_roman_no9_lregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    src: url('fonts/nimbusromno9l-regita-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-regita-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-regita-webfont.svg#nimbus_roman_no9_lRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bagnardregular';
+    src: url('fonts/bagnard-webfont.woff2') format('woff2'),
+         url('fonts/bagnard-webfont.woff') format('woff'),
+         url('fonts/bagnard-webfont.svg#bagnardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grotexregular';
+    src: url('fonts/grotex-regular-webfont.woff2') format('woff2'),
+         url('fonts/grotex-regular-webfont.woff') format('woff'),
+         url('fonts/grotex-regular-webfont.svg#grotexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixelregular';
+    src: url('fonts/mister_pixel_regular-webfont.woff2') format('woff2'),
+         url('fonts/mister_pixel_regular-webfont.woff') format('woff'),
+         url('fonts/mister_pixel_regular-webfont.svg#vtf_misterpixelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixeltools';
+    src: url('fonts/mister_pixel_tools-webfont.woff2') format('woff2'),
+         url('fonts/mister_pixel_tools-webfont.woff') format('woff'),
+         url('fonts/mister_pixel_tools-webfont.svg#vtf_misterpixeltools') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mixo';
+  src: url('fonts/VTF_Mixo.eot'); /* IE9 Compat Modes */
+  src: url('fonts/VTF_Mixo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/VTF_Mixo.woff') format('woff'), /* Modern Browsers */
+       url('fonts/VTF_Mixo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/VTF_Mixo.svg#mixo') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'savateitalique';
+    src: url('fonts/savate-italique-webfont.eot');
+    src: url('fonts/savate-italique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/savate-italique-webfont.woff2') format('woff2'),
+         url('fonts/savate-italique-webfont.woff') format('woff'),
+         url('fonts/savate-italique-webfont.ttf') format('truetype'),
+         url('fonts/savate-italique-webfont.svg#savateitalique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'savateregular';
+    src: url('fonts/savate-regular-webfont.eot');
+    src: url('fonts/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/savate-regular-webfont.woff2') format('woff2'),
+         url('fonts/savate-regular-webfont.woff') format('woff'),
+         url('fonts/savate-regular-webfont.ttf') format('truetype'),
+         url('fonts/savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
