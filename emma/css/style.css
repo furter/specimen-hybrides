@@ -203,7 +203,7 @@ a:hover {
 
 #header {
 	font-family: 'petit_formal_scriptregular';
-	height: 150px;
+	height: 100px;
 	width: 100%;
 	display: table;
 	color: #000;
@@ -802,16 +802,16 @@ article {
 ::-webkit-scrollbar-track {
       background-color: black;
 } /* the new scrollbar will have a flat appearance with the set background color */
- 
+
 ::-webkit-scrollbar-thumb {
-      background-color: pink; 
+      background-color: pink;
 } /* this will style the thumb, ignoring the track */
- 
+
 ::-webkit-scrollbar-button {
       background-color: black;
       height: 20px;
 } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
- 
+
 ::-webkit-scrollbar-corner {
       background-color: black;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
