@@ -16,25 +16,25 @@ $(document).ready(function(){
      $('.ultralightbiryani').click(function() {
      $('.container').css('font-family', 'biryaniultralight')
 
- });
+    });
      $('.lightbiryani').click(function() {
      $('.container').css('font-family', 'biryanilight')
- });
+    });
      $('.regularbiryani').click(function() {
      $('.container').css('font-family', 'biryaniregular')
- });
+    });
      $('.boldbiryani').click(function() {
      $('.container').css('font-family', 'biryanibold')
- });
+    });
      $('.demiboldbiryani').click(function() {
      $('.container').css('font-family', 'biryanidemibold')
- });
+    });
      $('.extraboldbiryani').click(function() {
      $('.container').css('font-family', 'biryaniextrabold')
- });
+    });
      $('.heavybiryani').click(function() {
      $('.container').css('font-family', 'biryaniheavy')
- });
+    });
 
 
 
@@ -171,7 +171,9 @@ $('.bagnard').click(function() {
  });
 
 
-
+$('.font-size').click(function() {
+  $('.container').css('font-size', '6px')
+});
 
 $('.font-size-1').click(function() {
      $('.container').css('font-size', '15px')
@@ -295,23 +297,107 @@ $('.text-align-3').click(function() {
 
 
 
+$('.hidden').hide();
+$('#compo-1').show();
+$('#outil-1-1').show();
 
-    $('.font-size').click(function() {
-     $('.container').css('font-size', '6px')
- });
 
 
-    /*
-    $(function () {
-        //  Accordion Panels
-        $(".inside").hide();
-        $(".menu-title").click(function () {
-        $(".inside:visible").hide();
-        $(this).next(".inside").slideToggle();
-        });
-    });
-    */
+$('.vignette-1').click(function() {
+  $('.hidden').hide();
+  $('#compo-1').show();
+  $('#outil-1-1').show();
 });
+$('.vignette-2').click(function() {
+  $('.hidden').hide();
+  $('#compo-2').show();
+  $('#outil-2-1').show();
+});
+$('.vignette-3').click(function() {
+  $('.hidden').hide();
+  $('#compo-3').show();
+  $('#outil-3-1').show();
+});
+
+
+
+
+$('.case-1-1').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-1-1').show();
+});
+$('.case-1-2').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-1-2').show();
+});
+$('.case-1-3').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-1-3').show();
+});
+$('.case-1-4').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-1-4').show();
+});
+$('.case-1-5').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-1-5').show();
+});
+
+
+$('.case-2-1').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-2-1').show();
+});
+$('.case-2-2').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-2-2').show();
+});
+$('.case-2-3').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-2-3').show();
+});
+$('.case-2-4').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-2-4').show();
+});
+$('.case-2-5').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-2-5').show();
+});
+
+
+
+$('.case-3-1').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-3-1').show();
+});
+$('.case-3-2').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-3-2').show();
+});
+$('.case-3-3').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-3-3').show();
+});
+$('.case-3-4').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-3-4').show();
+});
+$('.case-3-5').click(function() {
+  $('.outil-hidden').hide();
+  $('#outil-3-5').show();
+});
+
+
+
+
+// ajouter ici!
+
+}); // fin document ready
+    
+
+
+
 
 
 
