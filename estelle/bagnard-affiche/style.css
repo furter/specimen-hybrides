@@ -169,6 +169,18 @@ overflow: hidden;
 font-family: bagnardregular, Arial, sans-serif;
 }
 
+.intro {
+    font-family: bagnard;
+    font-size: 30px;
+    letter-spacing: 1px;
+    top: 6px;
+    color: black;
+    position:absolute;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor: pointer;
+  }
+
 .img-faux-background {
     position: relative;
     max-width: 50%;
