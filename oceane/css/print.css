@@ -1,0 +1,112 @@
+
+
+@media print {
+ 
+	#content {
+	width: 100%; 
+	margin: 0; 
+	float: none; 
+	}
+
+ 	@page {
+	 margin-top: 1cm;
+	 margin-bottom: 1cm;
+	 margin-left: 3cm;
+	 margin-right: 3cm;
+	}
+
+
+	.chapter {
+     page-break-before: always; // AVANT L’ÉLÉMENT
+  }
+
+  img {
+     page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
+  }
+
+	body {
+		overflow-wrap: break-word;
+		text-align: center;
+	}
+
+	h1, .arrows {
+		display: none;
+	}
+
+
+	h2 {
+		font-family: 'petit_formal_scriptregular';
+		font-size: 15px;
+		margin-bottom: -1cm;
+		page-break-before: always;
+	}
+
+	img {
+		max-width: 200px;
+	}
+
+
+
+	.lilgroteskregular {
+		font-family: 'lilgroteskregular';
+		font-size: 90px;
+		line-height: 95px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		position: relative;
+	}
+
+	.lilgroteskregularplus {
+		font-family: 'lilgroteskregular';
+		font-size: 65px;
+		line-height: 50px;
+		page-break-after: avoid;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		position: relative;
+	}
+
+	.lilgroteskregularplusplus {
+		font-family: 'lilgroteskregular';
+		font-size: 40px;
+		page-break-after: avoid;
+		padding-bottom: 30px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		position: relative;
+	}
+
+	.lilgroteskregularplusplusplus{
+		font-family: 'lilgroteskregular';
+		font-size: 22px;
+		page-break-after: avoid;
+		padding-bottom: 30px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		position: relative;
+
+	}
+
+	.lilgroteskregularplusplusplusplus
+		{
+		font-family: 'lilgroteskregular';
+		font-size: 10px;
+		page-break-after: avoid;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		position: relative;
+		}
+
+
+
+
+
+
+	  img {
+	     page-break-inside: avoid; // JAMAIS DANS L’ÉLÉMENT
+	  }
+
+
+
+}
+
