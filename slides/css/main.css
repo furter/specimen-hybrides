@@ -39,10 +39,11 @@ p {
 }
 .slider-nav {
     position: absolute;
-    top: 50vh;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    top: 49vh;
+    width: 20px;
+    height: 20px;
+    background-color: #666666;
+    opacity: 0.5;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -70,13 +71,19 @@ p {
   background-size: cover;
   background-color:black;
   color:#ffcce6;
+  display: -webkit-flex;
+  display: flex;
 }
 .inside-slide {
   position: absolute;
-  top: 50vh;
-  margin-top: -150px;
+  top: 25vh;
   width: 100%;
+  margin: auto;
+  margin-top: auto;
+
 }
+
+
 .blue p {
     font-family: 'Solide Mirage_Etroit';
     font-size: 8em;
@@ -84,42 +91,52 @@ p {
 }
 
 .first{
-    background-color:blue;
-    background-size: cover;
+    
+  background-size: cover;
   background-image:url('../img/lolita-solide-mirage.gif');
   color:white;
   font-size: 8em;
-  text-align:center;
-  line-height:auto;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .first p {
-    position: absolute;
-    top: 50vh;
-    margin-top: -150px;
-    font-family: 'Solide Mirage_Etroit';
+
+  font-family: 'Solide Mirage_Etroit';
+  margin: auto;
+  margin-top: calc(50vh - 0.7em)
 }
 
 .yellow {
-
+  font-family:'Solide Mirage_Etroit';
+  font-size: 300px;
   background-size: cover;
   background-color:#ffcce6;
-  background-image:url('../img/glyphes2.gif');
-  color:white;
-  font-size: 8em;
+  color:black;
   text-align:center;
   line-height:auto;
+  display: -webkit-flex;
+  display: flex;
 }
 
+.yellow p {
+  margin: auto;
+  margin-top: calc(50vh - 0.7em);
+
+}
+
+.pink {
+  background-color: black;
+}
 .pink p {
    font-family:'Solide Mirage_Etroit';
    font-weight: normal;
    font-style: normal;
-   font-size: 5.6em;
-   padding: 10% 13%;
+   font-size: 5em;
+   margin-top: calc(50vh - 0.7em);
    text-align: center;
-   color: #170B3B;
-   line-height: 105%;
+   color: white;
+   line-height: 120%;
 }
 
 p:focus {
@@ -128,23 +145,20 @@ p:focus {
 
 #container {
   font-family:'Solide Mirage_Etroit';
-  position:absolute;
-    top: 50vh;
-    margin-top: -130px;
+  position:center;
+    margin-top: calc(50vh - 0.7em);
     font-size:5em;
     text-align:center;
-
+    color:#ffcce6; 
 
 }
+
 
 .orange p {
   font-family:'Solide Mirage_Etroit';
 
-
-
-
-
 }
+
 .violet{
   background-color:#ffcce6;
 }
@@ -153,9 +167,9 @@ p:focus {
    font-family:'Solide Mirage_Etroit';
    font-weight: normal;
    font-style: normal;
-   font-size: 5.6em;
-   padding: 10% 13%;
+   font-size: 2em;
    text-align: center;
+   margin-top: calc(40vh - 0.7em);
    color: black;
-   line-height: 105%;
+   line-height: 1.5em;
 }
