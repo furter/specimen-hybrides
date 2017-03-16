@@ -38,6 +38,24 @@ div {
     padding:20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.back {
+    font-family: 'grotexregular';
+    color: black;
+    position: fixed;
+    font-size: 40px;
+    bottom: 0%;
+    left: 1%;
+    z-index: 3;
+}
+
 .poster-format {
     -webkit-hyphens: auto;
     position: relative;
@@ -50,6 +68,7 @@ div {
     margin-top: 4%;
     width: 610px;
     height: 850px;
+    cursor: pointer;
    -moz-box-shadow:    inset  0  8px 8px -8px #696868,
                       inset  0 -8px 8px -8px #696868;
   -webkit-box-shadow: inset  0  8px 8px -8px #696868,
@@ -64,7 +83,6 @@ div {
   text-align: center;
   color: white;
   padding: 30px;
-  cursor: text;
   line-height: 152px;
  -webkit-text-stroke: 1px white;
  -webkit-text-fill-color: transparent;
