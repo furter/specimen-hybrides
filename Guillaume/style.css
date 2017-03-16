@@ -1,0 +1,302 @@
+/*initialise default browsers settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+
+/*Homepage*/
+
+
+.main-column
+{
+    display: flex;
+    align-content: space-around;
+    line-height: 210px;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 70px;
+    font-size: 150px;
+    text-align: center;
+}
+
+.intro {
+    font-family: bagnard;
+    font-size: 30px;
+    letter-spacing: 1px;
+    top: 6px;
+    color: white;
+    position:absolute;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor: pointer;
+  }
+
+.menu-bagnard {
+    order: 1;
+    font-family: bagnard;
+    cursor: url(img/diamond.png), auto;
+}
+
+.menu-bagnard:hover {
+    -webkit-animation: shake 0.5s ease-in-out 0.1s infinite alternate;
+}
+
+.menu-mixo {
+    order: 3;
+    line-height: 168%;;
+    font-family: mixo;
+    font-size: 150px;
+    cursor: url(img/snake.png), auto;
+}
+
+.menu-mixo:hover {
+    -webkit-animation: shake 0.01s ease-in-out 0.1s infinite alternate;
+}
+
+.menu-nimbus {
+    order: 5;
+    font-family: nimbusregular;
+    cursor: url(img/Enchanted_Book.png), auto;
+}
+
+.menu-nimbus:hover {
+    -webkit-animation: shake 1.0s ease-in-out 0.1s infinite alternate;
+}
+
+.menu-grotex {
+    order: 2;
+    font-family: grotex;
+    cursor: url(img/swiss.gif), auto;
+}
+
+.menu-grotex:hover {
+    -webkit-animation: shake 0.25s ease-in-out 0.1s infinite alternate;
+}
+
+.menu-mrpixel {
+    order: 4;
+    font-family: mrpixel;
+    cursor: url(img/smiley.gif), auto;
+}
+
+.menu-mrpixel:hover {
+    -webkit-animation: shake 0.15s ease-in-out 0.1s infinite alternate;
+}
+
+.menu-savate {
+    order: 6;
+    font-family: savateregular;
+    cursor: url(img/bruce.png), auto;
+}
+
+.menu-savate:hover {
+    -webkit-animation: shake 0.001s ease-in-out 0.1s infinite alternate;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold';
+    src: url('fonts/nimbusromno9l-med-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-med-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-med-webfont.svg#nimbus_roman_no9_lbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    src: url('fonts/nimbusromno9l-medita-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-medita-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-medita-webfont.svg#nimbus_roman_no9_lbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lregular';
+    src: url('fonts/nimbusromno9l-reg-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-reg-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-reg-webfont.svg#nimbus_roman_no9_lregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    src: url('fonts/nimbusromno9l-regita-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-regita-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-regita-webfont.svg#nimbus_roman_no9_lRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bagnardregular';
+    src: url('fonts/bagnard-webfont.woff2') format('woff2'),
+         url('fonts/bagnard-webfont.woff') format('woff'),
+         url('fonts/bagnard-webfont.svg#bagnardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grotexregular';
+    src: url('fonts/grotex-regular-webfont.woff2') format('woff2'),
+         url('fonts/grotex-regular-webfont.woff') format('woff'),
+         url('fonts/grotex-regular-webfont.svg#grotexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixelregular';
+    src: url('fonts/mister_pixel_regular-webfont.woff2') format('woff2'),
+         url('fonts/mister_pixel_regular-webfont.woff') format('woff'),
+         url('fonts/mister_pixel_regular-webfont.svg#vtf_misterpixelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixeltools';
+    src: url('fonts/mister_pixel_tools-webfont.woff2') format('woff2'),
+         url('fonts/mister_pixel_tools-webfont.woff') format('woff'),
+         url('fonts/mister_pixel_tools-webfont.svg#vtf_misterpixeltools') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mixo';
+  src: url('fonts/VTF_Mixo.eot'); /* IE9 Compat Modes */
+  src: url('fonts/VTF_Mixo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/VTF_Mixo.woff') format('woff'), /* Modern Browsers */
+       url('fonts/VTF_Mixo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/VTF_Mixo.svg#mixo') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'savateitalique';
+    src: url('fonts/savate-italique-webfont.eot');
+    src: url('fonts/savate-italique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/savate-italique-webfont.woff2') format('woff2'),
+         url('fonts/savate-italique-webfont.woff') format('woff'),
+         url('fonts/savate-italique-webfont.ttf') format('truetype'),
+         url('fonts/savate-italique-webfont.svg#savateitalique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'savateregular';
+    src: url('fonts/savate-regular-webfont.eot');
+    src: url('fonts/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/savate-regular-webfont.woff2') format('woff2'),
+         url('fonts/savate-regular-webfont.woff') format('woff'),
+         url('fonts/savate-regular-webfont.ttf') format('truetype'),
+         url('fonts/savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*bagnard*/
+.bagnard {
+  font-family: 'bagnardregular';
+}
+
+/*mixo*/
+.mixo {
+  font-family: 'Mixo';
+}
+
+/*nimbus*/
+.nimbusregular {
+  font-family: 'nimbus_roman_no9_lregular';
+}
+
+.nimbusregularitalic {
+  font-family: 'nimbus_roman_no9_lRgIt';
+}
+
+.nimbusbold {
+  font-family: 'nimbus_roman_no9_lbold';
+}
+
+.nimbusbolditalic {
+  font-family: 'nimbus_roman_no9_lbold_italic';
+}
+
+/*grotex*/
+.grotex {
+  font-family: 'grotexregular';
+}
+
+/*mrpixel*/
+.mrpixel {
+  font-family: 'vtf_misterpixelregular';
+}
+.mrpixeltools {
+  font-family: 'vtf_misterpixeltools';
+}
+
+.savateregular {
+  font-family: 'savateregular';
+}
+
+.savateregularitalic {
+  font-family: 'savateitalique';
+}
+
+
+@-webkit-keyframes shake {
+ from {
+    -webkit-transform: rotate(5deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-5deg);
+ }
+
+}
