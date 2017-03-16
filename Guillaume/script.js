@@ -1,4 +1,4 @@
-/*background color changing according to mousemove*/
+/*background color changing according to mousemove
 
 $('document').ready(function()
 {var $win = $(window),
@@ -21,6 +21,7 @@ $win.resize(getWidth).mousemove(function(e) {
 
 }).resize();});
 
+*/
 /*moving text homepage*/
 
 $('document').ready(function()

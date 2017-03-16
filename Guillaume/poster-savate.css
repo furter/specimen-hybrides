@@ -132,6 +132,16 @@ audio {
     content: url(img/bruce4.jpg);
 }
 
+.img-fake-brucelee {
+    margin-right: 20%;
+    margin-bottom: 10%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    content: url(img/texte-bruce-yellow.png);
+    z-index: 3;
+}
+
 a {
   text-decoration: none;
 }
@@ -169,6 +179,14 @@ a {
     }
   }
 }
+
+@media screen {
+
+  .img-fake-brucelee {
+    display: none;
+  }
+}
+
 
 
 /* FONTS */
