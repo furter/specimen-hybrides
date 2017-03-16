@@ -24,7 +24,7 @@ $win.resize(getWidth).mousemove(function(e) {
 /*moving text homepage*/
 
 $('document').ready(function()
-{var ob = $(".intro"),
+{var ob = $("intro"),
     tw = ob.width(),
     ww = ob.parent().outerWidth();
 
@@ -46,5 +46,76 @@ ob.mouseenter(function() {
 ob.mouseleave(function() {
     animate();
 });
+
+});
+
+$('document').ready(function(){
+  var selected = null, // Object of the element to be moved
+    x_pos = 0, y_pos = 0, // Stores x & y coordinates of the mouse pointer
+    x_elem = 0, y_elem = 0; // Stores top, left values (edge) of the element
+
+// Will be called when user starts dragging an element
+function _drag_init(elem) {
+    // Store the object of the element which needs to be moved
+    selected = elem;
+    x_elem = x_pos - selected.offsetLeft;
+    y_elem = y_pos - selected.offsetTop;
+}
+
+// Will be called when user dragging an element
+function _move_elem(e) {
+    x_pos = document.all ? window.event.clientX : e.pageX;
+    y_pos = document.all ? window.event.clientY : e.pageY;
+    if (selected !== null) {
+        selected.style.left = (x_pos - x_elem) + 'px';
+        selected.style.top = (y_pos - y_elem) + 'px';
+    }
+}
+
+// Destroy the object when we are done
+function _destroy() {
+    selected = null;
+}
+
+// Bind the functions...
+document.getElementById('draggable-element').onmousedown = function () {
+    _drag_init(this);
+    return false;
+};
+
+document.getElementById('draggable-element-1').onmousedown = function () {
+    _drag_init(this);
+    return false;
+};
+
+document.getElementById('draggable-element-2').onmousedown = function () {
+    _drag_init(this);
+    return false;
+};
+
+document.getElementById('draggable-element-3').onmousedown = function () {
+    _drag_init(this);
+    return false;
+};
+
+document.getElementById('draggable-element-4').onmousedown = function () {
+    _drag_init(this);
+    return false;
+};
+
+document.onmousemove = _move_elem;
+document.onmouseup = _destroy;
+});
+
+/*mute*/
+$('document').ready(function(){
+  var audio = document.getElementById('background_audio');
+
+  document.getElementById('mute').addEventListener('click', function (e)
+  {
+      e = e || window.event;
+      audio.muted = !audio.muted;
+      e.preventDefault();
+  }, false);
 
 });

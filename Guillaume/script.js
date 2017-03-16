@@ -24,7 +24,7 @@ $win.resize(getWidth).mousemove(function(e) {
 /*moving text homepage*/
 
 $('document').ready(function()
-{var ob = $(".intro"),
+{var ob = $("intro"),
     tw = ob.width(),
     ww = ob.parent().outerWidth();
 
@@ -105,4 +105,17 @@ document.getElementById('draggable-element-4').onmousedown = function () {
 
 document.onmousemove = _move_elem;
 document.onmouseup = _destroy;
+});
+
+/*mute*/
+$('document').ready(function(){
+  var audio = document.getElementById('background_audio');
+
+  document.getElementById('mute').addEventListener('click', function (e)
+  {
+      e = e || window.event;
+      audio.muted = !audio.muted;
+      e.preventDefault();
+  }, false);
+
 });
