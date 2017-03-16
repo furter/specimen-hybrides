@@ -161,21 +161,22 @@ a {
   a:link:after, a:visited:after {
     content: " (" attr(href) ") ";
   }
-}
-@page {
-  margin-top: 0cm;
-  margin-bottom: 0cm;
-  margin-left: 0cm;
-  margin-right: 0cm;
-}
-@page :left {
+    @page {
+    margin-top: 0cm;
+    margin-bottom: 0cm;
     margin-left: 0cm;
     margin-right: 0cm;
-}
+  }
+  @page :left {
+      margin-left: 0cm;
+      margin-right: 0cm;
+  }
 
-@page :right {
-    margin-left: 0cm;
-    margin-right: 0cm;
+  @page :right {
+      margin-left: 0cm;
+      margin-right: 0cm;
+  }
+
 }
 
 /* FONTS */
