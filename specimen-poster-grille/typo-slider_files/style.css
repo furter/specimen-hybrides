@@ -362,21 +362,23 @@ body {
 }
 
 nav {
-  width: 100%;
+  width: 80%;
   padding: 10px;
+  margin-left: 10%;
+  position: absolute;
+  z-index: 300000;
 }
 .outils {
   background-color: none;
   display: inline-block;
 }
-.outils-1 {
+.outil-1-1 {
   width: 100%;
 }
-.outil-1 div {
+.outil-1-1 div {
   width: 150px;
   display: inline-block;
 } 
-
 .outil-element {
   display: inline-block;
   margin: 0px;
@@ -387,11 +389,9 @@ nav {
   display: inline-block;
   padding: 10px;
 }
-
-.compo-1 {
+.compo-menu {
   width: 100%;
 }
-
 .compo-element {
   display: inline-block;
   padding: 10px;
@@ -415,56 +415,168 @@ nav {
   margin: 10px;
 }
 .menu-title {
+  text-align: center;
   border: 2px solid black;
   margin: 0px 10px 5px 5px;
   padding: 5px 5px 2px 5px;
 }
 
+/* GRILLE CONTENUS */
 
-.compo-1-resultat2 {
-  border: 2px solid black;
-  width: 800px;
-  height: 1100px;
-  margin:auto;
+/* COMPO-1 */
+.compo-1 {
+  width: 80px;
+  height: 120px;
+  margin: 30px;
+  position: relative;
+  top: 100px;
 }
-.compo-1_resultat div {
+.compo-1 div {
   overflow: hidden;
 }
-.case-1 {
-  display: inline-block;
-  border: 1px solid black;
-  width: 300px; 
-  height: 400px;  
+.case-1-1 {
+  position: absolute;
+  height: 35%;
+  width: 35%;
 }
-.case-2 {
-  display: inline-block;
-  border: 1px solid black;
-  width: 491px;
-  height: 400px;
- 
+.case-1-2 {
+  position: absolute;
+  height: 35%;
+  width: 65%;
+  top: 0%;
+  left: 35%;
 }
-.case-3 {
-  border: 1px solid black;
-  width: 400px;
-  height: 350px;
-  
+.case-1-3 {
+  position: absolute;
+  height: 33%;
+  width: 45%;
+  top: 35%;
+  left: 0%;
 }
-.case-4 {
-  border: 1px solid black;
-  width: 400px;
-  height: 350px;
-
+.case-1-4 {
+  position: absolute;
+  height: 32%;
+  width: 45%;
+  top: 68%;
+  left: 0%;
 }
-.case-5 {
-  display: inline-block;
-  border: 1px solid black;
-  width: 300px;
-  height: 700px;
-  top: -300px;
+.case-1-5 {
+  position: absolute;
+  height: 65%;
+  width: 55%;
+  top: 35%;
+  left: 45%;}
+
+.case-1-1:hover, .case-1-2:hover, .case-1-3:hover, .case-1-4:hover, .case-1-5:hover {
+  border: 2px solid black;
+}
+/* FIN COMPO-1 */
+
+
+/* COMPO-2 */
+.compo-2 {
+  width: 80px;
+  height: 120px;
+  margin: 30px;
+  position: relative;
+  top: 100px;
+}
+.compo-2 div {
+  overflow: hidden;
+}
+.case-2-1 {
+  position: absolute;
+  height: 30%;
+  width: 60%;
+  top: 0%;
+  left: 0%;
+  background-color: grey;
+}
+.case-2-2 {
+  position: absolute;
+  height: 40%;
+  width: 60%;
+  top: 30%;
+  left: 0%;
+  background-color: blue;
+}
+.case-2-3 {
+  position: absolute;
+  height: 70%;
+  width: 40%;
+  top: 0%;
+  left: 60%;
+  background-color: yellow;
+}
+.case-2-4 {
+  position: absolute;
+  height: 30%;
+  width: 35%;
+  top: 70%;
+  left: 0%;
+  background-color: red;
+}
+.case-2-5 {
+  position: absolute;
+  height: 30%;
+  width: 65%;
+  top: 70%;
+  left: 35%;
+  background-color: pink;
 }
 
+.case-2-1:hover, .case-2-2:hover, .case-2-3:hover, .case-2-4:hover, .case-2-5:hover {
+  border: 2px solid black;
+}
+/* FIN COMPO-2 */
 
 
+/* COMPO-3 */
+.compo-3 {
+  width: 80px;
+  height: 120px;
+  margin: 30px;
+  position: relative;
+  top: 100px;
+}
+.compo-3 div {
+  overflow: hidden;
+}
+.case-3-1 {
+  position: absolute;
+  height: 35%;
+  width: 60%;
+}
+.case-3-2 {
+  position: absolute;
+  height: 35%;
+  width: 40%;
+  top: 0%;
+  left: 60%;
+}
+.case-3-3 {
+  position: absolute;
+  height: 65%;
+  width: 40%;
+  top: 35%;
+  left: 0%;
+}
+.case-3-4 {
+  position: absolute;
+  height: 33%;
+  width: 60%;
+  top: 35%;
+  left: 40%;
+}
+.case-3-5 {
+  position: absolute;
+  height: 32%;
+  width: 60%;
+  top: 68%;
+  left: 40%;}
 
-
+.case-3-1:hover, .case-3-2:hover, .case-3-3:hover, .case-3-4:hover, .case-3-5:hover {
+  border: 2px solid black;
+}
+/* FIN COMPO-1 */
 
