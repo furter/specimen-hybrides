@@ -149,24 +149,60 @@
     overflow: hidden;
     overflow-wrap: break-word;
     position: absolute;
-    background: white; 
+    background: white;
 }
 
 .specimen-texte2 {
     font-family: 'vtf_misterpixeltools';
     overflow-wrap: break-word;
     position: absolute;
-    background: white; 
+    background: white;
 }
 
 .premier-mot1{
-    font-family:'vtf_misterpixelregular'; 
+    font-family:'vtf_misterpixelregular';
     font-size: 18px;
     margin-left: 0px;
 }
 
 .premier-mot2{
-    font-family:'vtf_misterpixelregular'; 
+    font-family:'vtf_misterpixelregular';
     font-size: 10px;
     margin-left: 0px;
+}
+
+@media print {
+
+  .open-close {
+    display: none;
+  }
+
+  .header, .footer, nav, .etc {
+    display: none;
+  }
+  div.chapter {
+     page-break-before: always;
+  }
+  img {
+     page-break-inside: avoid;
+  }
+  a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+  }
+}
+
+@page {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 0cm;
+  margin-right: 0cm;
+}
+@page :left {
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+@page :right {
+    margin-left: 0cm;
+    margin-right: 0cm;
 }
