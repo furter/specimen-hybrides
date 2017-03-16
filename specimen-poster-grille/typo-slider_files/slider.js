@@ -9,6 +9,7 @@ $(document).ready(function(){
     $('.sub-inside').hide();
 
 
+
     $('.biryani').click(function() {
      $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
     });
@@ -387,8 +388,6 @@ $('.case-3-5').click(function() {
   $('.outil-hidden').hide();
   $('#outil-3-5').show();
 });
-
-
 
 
 // ajouter ici!

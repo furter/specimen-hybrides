@@ -1,17 +1,7 @@
 $(document).ready(function(){
     // How to create a jQuery accordion menu
 
-    $('.inside').hide(); // initially hide the inside content
-    //set event listener to trigger on menu click
-    $('.menu-title').click(function() {
-        $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
-    });
-    $('.sub-inside').hide();
 
-
-    $('.biryani').click(function() {
-     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
-    });
 
      $('.ultralightbiryani').click(function() {
      $('.container-1-3').css('font-family', 'biryaniultralight')
@@ -38,11 +28,6 @@ $(document).ready(function(){
 
 
 
-
-$('.roboto').click(function() {
-     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
- });
-
      $('.thinroboto').click(function() {
      $('.container-1-3').css('font-family', 'roboto_slabthin')
 
@@ -62,9 +47,6 @@ $('.roboto').click(function() {
 
 
 
-$('.montserrat').click(function() {
-     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
- });
 
      $('.italicmontserra').click(function() {
      $('.container-1-3').css('font-family', 'montserratitalic')
@@ -101,13 +83,6 @@ $('.montserrat').click(function() {
 
 
 
-
-
-
-    $('.playfair').click(function() {
-     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
- });
-
      $('.regularPlayfair').click(function() {
      $('.container-1-3').css('font-family', 'playfair_displayregular')
  });
@@ -132,13 +107,6 @@ $('.montserrat').click(function() {
 
 
 
-
-
-
-
-$('.bluu').click(function() {
-     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
- });
      $('.boldbluu').click(function() {
      $('.container-1-3').css('font-family', 'bluu')
  });
@@ -150,22 +118,12 @@ $('.bluu').click(function() {
 
 
 
-
-
-
-$('.Terminal').click(function() {
-     $(this).next('.sub-inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
- });
      $('.regularterminal').click(function() {
      $('.container-1-3').css('font-family', 'terminal_grotesque_openRg')
  });
 
 
 
-
-$('.bagnard').click(function() {
-     $(this).next('.inside').slideToggle(); // find the next bottom content afterthe header and toggle it up or down depending on its current state.
- });
      $('.regularbagnard').click(function() {
      $('.container-1-3').css('font-family', 'bagnard_regularregular')
  });
@@ -292,6 +250,87 @@ $('.text-align-2').click(function() {
 $('.text-align-3').click(function() {
      $('.container-1-3').css('text-align', 'right')
  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     $('.txt-yellow').click(function() {
+     $('.container-1-3').css('text-color', '#FFFF00')
+    });
+     $('.txt-red').click(function() {
+     $('.container-1-3').css('text-color', '#FF0000')
+    });
+     $('.txt-purple').click(function() {
+     $('.container-1-3').css('text-color', '#B4BEF2')
+     });
+     $('.txt-green').click(function() {
+     $('.container-1-3').css('text-color', '#97D3C1')
+    });
+     $('.txt-black').click(function() {
+     $('.container-1-3').css('text-color', '#000000')
+    });
+     $('.txt-white').click(function() {
+     $('.container-1-3').css('text-color', '#FFFFFF')
+    });
+
+
+
+     
+     $('.background-yellow').click(function() {
+     $('.container-1-3').css('background-color', '#FFFF00')
+    });
+     $('.background-red').click(function() {
+     $('.container-1-3').css('background-color', '#FF0000')
+    });
+     $('.background-purple').click(function() {
+     $('.container-1-3').css('background-color', '#B4BEF2')
+    });
+     $('.background-green').click(function() {
+     $('.container-1-3').css('background-color', '#97D3C1')
+    });
+     $('.background-black').click(function() {
+     $('.container-1-3').css('background-color', '#000000')
+    });
+
+     $('.background-white').click(function() {
+     $('.container-1-3').css('background-color', '#FFFFFF')
+     });
+
 
 
 
