@@ -70,9 +70,11 @@ div {
  -webkit-text-fill-color: transparent;
 }
 
+/*
 .reading:hover {
     cursor: url(img/pencil_new.png), auto;
 }
+*/
 
 .burn {
   font-family: nimbusregular;
@@ -132,6 +134,48 @@ div {
 
 audio {
    display:none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+@media print {
+
+  .open-close {
+    display: none;
+  }
+  .world {
+    background-image:url(img/bagnard.jpg);
+  }
+  .header, .footer, nav, .etc {
+    display: none;
+  }
+  div.chapter {
+     page-break-before: always;
+  }
+  img {
+     page-break-inside: avoid;
+  }
+  a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+  }
+}
+@page {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 0cm;
+  margin-right: 0cm;
+}
+@page :left {
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+@page :right {
+    margin-left: 0cm;
+    margin-right: 0cm;
 }
 
 /* FONTS */
