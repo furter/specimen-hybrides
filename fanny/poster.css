@@ -1,0 +1,139 @@
+/* FONTS */
+
+
+
+
+@font-face {
+    font-family: 'grotexregular';
+    src: url('fonts/grotex-regular-webfont.woff2') format('woff2'),
+         url('fonts/grotex-regular-webfont.woff') format('woff'),
+         url('fonts/grotex-regular-webfont.svg#grotexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Poster*/
+
+
+
+.poster-container {
+    display: flex;
+    /*put items vertically*/
+    flex-direction: column;
+    /*align all items in vertical center */
+    justify-content: center;
+    /*align all items in horz center */
+    align-items: center;
+    padding:20px;
+
+}
+
+.poster-format {
+
+    -webkit-hyphens: auto;
+    position: relative;
+    -ms-hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+    background-color: black;
+    margin: auto;
+    margin-top: 4%;
+    width: 610px;
+    height: 850px;
+   -moz-box-shadow:    inset  0  8px 8px -8px #696868,
+                      inset  0 -8px 8px -8px #696868;
+  -webkit-box-shadow: inset  0  8px 8px -8px #696868,
+                      inset  0 -8px 8px -8px #696868;
+    box-shadow:        inset  0  30px 30px -30px #696868,
+                      inset  0 -30px 30px -30px #696868;
+
+}
+
+#draggable-element {
+  width:100px;
+  height:100px;
+  background-color:#666;
+  color:white;
+  padding:10px 12px;
+  cursor:move;
+  position:relative; /* important (all position that's not `static`) */
+}
+
+/*grotex*/
+
+.swiss {
+  font-family: 'grotexregular';
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  font-size: 90px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: 18px;
+  padding: 3px;
+  color: white;
+}
+
+.global {
+  font-family: 'grotexregular';
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: blue;
+  position: absolute;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  margin-right: 18px;
+  top: 11%;
+  left: 68%;
+  font-size: 90px;
+  padding: 3px;
+  color: white;
+}
+
+.federation {
+  font-family: 'grotexregular';
+  position: absolute;
+  background-color: yellow;
+  display: inline-block;
+  font-size: 90px;
+  text-align: left;
+  margin-left: 18px;
+  margin-right: 18px;
+  top: 40%;
+  padding: 3px;
+  color: black;
+}
+
+.grid {
+  font-family: 'grotexregular';
+  word-wrap: break-word;
+  background-color: white;
+  position: absolute;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  top: 60%;
+  left: -2%;
+  font-size: 90px;
+  padding: 3px;
+  color: black;
+}
+
+.system {
+  font-family: 'grotexregular';
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: green;
+  position: absolute;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+  top: 70%;
+  left: 35%;
+  font-size: 90px;
+  padding: 3px;
+  color: white;
+}
