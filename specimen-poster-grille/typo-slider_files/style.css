@@ -1,0 +1,613 @@
+
+/* début de la Biryani */
+@font-face {
+    font-family: 'biryanidemibold';
+    src: url('fonts/biryani-demibold-webfont.woff2') format('woff2'),
+         url('fonts/biryani-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'biryaniextrabold';
+    src: url('fonts/biryani-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/biryani-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'biryaniheavy';
+    src: url('fonts/biryani-heavy-webfont.woff2') format('woff2'),
+         url('fonts/biryani-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'biryanilight';
+    src: url('fonts/biryani-light-webfont.woff2') format('woff2'),
+         url('fonts/biryani-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'biryaniregular';
+    src: url('fonts/biryani-regular-webfont.woff2') format('woff2'),
+         url('fonts/biryani-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'biryaniultralight';
+    src: url('fonts/biryani-ultralight-webfont.woff2') format('woff2'),
+         url('fonts/biryani-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'biryanibold';
+    src: url('fonts/biryani-bold-webfont.woff2') format('woff2'),
+         url('fonts/biryani-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* fin de la Biryani */
+
+
+
+
+
+
+/* Début de la montserra */
+@font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/montserrat-black-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratblack_italic';
+    src: url('fonts/montserrat-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratbold_italic';
+    src: url('fonts/montserrat-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratextrabold_italic';
+    src: url('fonts/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratextralight_italic';
+    src: url('fonts/montserrat-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('fonts/montserrat-italic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('fonts/montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratmedium_italic';
+    src: url('fonts/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fin de la montserra */
+
+
+
+
+
+
+
+/* début de la Bluu */
+@font-face {
+    font-family: 'bluu';
+    src: url('fonts/bluunext-bold-webfont.woff2') format('woff2'),
+         url('fonts/bluunext-bold-webfont.woff') format('woff'),
+         url('fonts/bluunext-bold.ttf') format('truetype'),
+         url('fonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bluu_nextbold_italic';
+    src: url('fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/bluunext-bolditalic-webfont.woff') format('woff'),
+         url('fonts/bluunext-bolditalic.ttf') format('truetype'),
+         url('fonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+/* Fin de la Bluu */
+
+
+
+
+
+
+
+/* début de la Playfair */
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('fonts/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displayblack_italic';
+    src: url('fonts/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fin de la Playfair */
+
+
+
+
+
+/* début de la roboto */
+@font-face {
+    font-family: 'roboto_slabbold';
+    src: url('fonts/robotoslab-bold-webfont.woff2') format('woff2'),
+         url('fonts/robotoslab-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_slablight';
+    src: url('fonts/robotoslab-light-webfont.woff2') format('woff2'),
+         url('fonts/robotoslab-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('fonts/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('fonts/robotoslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_slabthin';
+    src: url('fonts/robotoslab-thin-webfont.woff2') format('woff2'),
+         url('fonts/robotoslab-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fin de la roboto */
+
+
+
+
+
+
+
+
+
+
+/* début de la bagnard */
+@font-face {
+    font-family: 'bagnard_regularregular';
+    src: url('fonts/bagnardsans-webfont.woff2') format('woff2'),
+         url('fonts/bagnardsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fin de la Bagnard */
+
+
+
+
+
+
+
+
+
+
+/* début de la Terminal */
+@font-face {
+    font-family: 'terminal_grotesque_openRg';
+    src: url('fonts/terminal-grotesque_open-webfont.woff2') format('woff2'),
+         url('fonts/terminal-grotesque_open-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fin de la Terminal */
+
+}
+
+
+
+
+/*initialise default browsers settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: 'montserratmedium';
+  font-size: 20px;
+}
+
+nav {
+  padding: 10px;
+  position: absolute;
+  z-index: 300000;
+  top: 0px;
+  left: 0px;
+}
+.compo {
+  background-color: none;
+    display: inline-block;
+  padding: 10px;
+}
+.compo-menu {
+  width: 100%;
+}
+.compo-element {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.outils {
+  background-color: none;
+  display: inline-block;
+  position: absolute;
+}
+
+.outil-1-1 {
+  width: 150px;
+  display: inline-block;
+  position: absolute;
+  right: -5px;
+  top: 0;
+  z-index: 5000;
+}
+.outil-1-1 div {
+  width: 150px;
+  display: inline-block;
+  background-color: white;
+}
+
+.outil-element {
+  display: inline-block;
+  margin: 0px;
+}
+
+
+.inside {
+  position: absolute;
+  background-color: white;
+  border: 2px solid black;
+  margin-left: 100px;
+}
+.sub-inside {
+}
+.inside li {
+  list-style: none;
+}
+ul {
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    padding: 5px;
+}
+.align-buttons li {
+  display: inline-block;
+  margin: 10px;
+}
+.menu-title {
+  text-align: center;
+  border: 2px solid black;
+  margin: 0px 10px 5px 5px;
+  padding: 5px 5px 2px 5px;
+}
+
+/* GRILLE CONTENUS */
+
+/* COMPO-1 */
+#compo-1 {
+  width: 80px;
+  height: 120px;
+  top: 10px;
+  position: relative;
+}
+#compo-1 div {
+}
+.case-grille {
+    }
+.case-1-1 {
+  position: absolute;
+  height: 35%;
+  width: 35%;
+}
+.case-1-2 {
+  position: absolute;
+  height: 35%;
+  width: 65%;
+  top: 0%;
+  left: 35%;
+}
+.case-1-2 .container {
+    text-align: center;
+    font-size: 70px;
+} /* FAIRE PAREIL POUR LES AUTRES CASES */
+.case-1-3 {
+  position: absolute;
+  height: 33%;
+  width: 45%;
+  top: 35%;
+  left: 0%;
+}
+.case-1-4 {
+  position: absolute;
+  height: 32%;
+  width: 45%;
+  top: 68%;
+  left: 0%;
+}
+.case-1-5 {
+  position: absolute;
+  height: 65%;
+  width: 55%;
+  top: 35%;
+  left: 45%;}
+
+.case-1-1:hover, .case-1-2:hover, .case-1-3:hover, .case-1-4:hover, .case-1-5:hover {
+  border: 2px solid black;
+}
+/* FIN COMPO-1 */
+
+.container {
+    height: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    margin-top: -20px;
+}
+.container p {
+    padding: 15px;
+}
+
+/* COMPO-2 */
+#compo-2 {
+  width: 80px;
+  height: 120px;
+  position: relative;
+  top: 10px;
+}
+#compo-2 div {
+
+}
+.case-2-1 {
+  position: absolute;
+  height: 30%;
+  width: 60%;
+  top: 0%;
+  left: 0%;
+}
+.case-2-2 {
+  position: absolute;
+  height: 40%;
+  width: 60%;
+  top: 30%;
+  left: 0%;
+}
+.case-2-3 {
+  position: absolute;
+  height: 70%;
+  width: 40%;
+  top: 0%;
+  left: 60%;
+}
+.case-2-4 {
+  position: absolute;
+  height: 30%;
+  width: 35%;
+  top: 70%;
+  left: 0%;
+}
+.case-2-5 {
+  position: absolute;
+  height: 30%;
+  width: 65%;
+  top: 70%;
+  left: 35%;
+}
+
+.case-2-1:hover, .case-2-2:hover, .case-2-3:hover, .case-2-4:hover, .case-2-5:hover {
+  border: 2px solid black;
+}
+/* FIN COMPO-2 */
+
+
+/* COMPO-3 */
+#compo-3 {
+  width: 80px;
+  height: 120px;
+  position: relative;
+  top: 10px;
+}
+#compo-3 div {
+
+}
+.case-3-1 {
+  position: absolute;
+  height: 35%;
+  width: 60%;
+}
+.case-3-2 {
+  position: absolute;
+  height: 35%;
+  width: 40%;
+  top: 0%;
+  left: 60%;
+}
+.case-3-3 {
+  position: absolute;
+  height: 65%;
+  width: 40%;
+  top: 35%;
+  left: 0%;
+}
+.case-3-4 {
+  position: absolute;
+  height: 33%;
+  width: 60%;
+  top: 35%;
+  left: 40%;
+}
+.case-3-5 {
+  position: absolute;
+  height: 32%;
+  width: 60%;
+  top: 68%;
+  left: 40%;}
+
+.case-3-1:hover, .case-3-2:hover, .case-3-3:hover, .case-3-4:hover, .case-3-5:hover {
+  border: 2px solid black;
+}
+/* FIN COMPO-1 */
+
+@media print {
+    nav {
+      display: none;
+    }
+}
