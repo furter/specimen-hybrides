@@ -180,6 +180,10 @@
     margin-left: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media print {
 
   .open-close {

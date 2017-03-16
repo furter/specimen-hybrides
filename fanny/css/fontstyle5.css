@@ -179,6 +179,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 @page {
   margin-top: 0cm;
   margin-bottom: 0cm;
