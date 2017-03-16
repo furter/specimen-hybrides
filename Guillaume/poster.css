@@ -46,6 +46,13 @@ a:visited {
     color: black;
 }
 
+#mute {
+    position: fixed;
+    right: 22%;
+    bottom: 2%;
+    z-index: 3;
+}
+
 .back {
     font-family: 'grotexregular';
     color: black;
