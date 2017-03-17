@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="poster-savate.css">
     <script src="jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="scripts/jquery-ui.css">
+
+    <script>
+function aud_play_pause() {
+  var myAudio = document.getElementById("myAudio");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
+}
+</script>
+
 </head>
 <body>
 
@@ -21,11 +33,11 @@
   </div>
 </div>
 
-  <audio id="background_audio" autoplay="autoplay" class="noprint">
-  <source src="music/bruce.mp3" />
+  <audio id="myAudio" autoplay="autoplay" class="noprint">
+  <source src="music/bruce.mp3" type='audio/mp3'>
   </audio>
 
-  <a href="#noscroll" id="mute-2">🎶</a>
+  <div class="mute" onclick="aud_play_pause()">🎶</div>
 
 <div class="noprint">
   <div class="intro">PAP FOUNDRY</div>
