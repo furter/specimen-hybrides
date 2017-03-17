@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'regloregular';
+    src: url('../fonts/reglo/reglo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/reglo/reglo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'BilboINC';
+    src: url('../fonts/bilbo/BilboINC Regular.eot');
+	src: url('../fonts/bilbo/BilboINC Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bilbo/BilboINC Regular.woff2') format('woff2'),
+		url('../fonts/bilbo/BilboINC Regular.woff') format('woff'),
+		url('../fonts/bilbo/BilboINC Regular.svg#BilboINC Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family: 'Solide Mirage_Etroit';
+    src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
+    src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff') format('woff'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff2') format('woff2'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.ttf') format('truetype'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nova_cutbook';
+    src: url('../fonts/novacut/novacut_-_copie-webfont.woff2') format('woff2'),
+         url('../fonts/novacut/novacut_-_copie-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bluu';
+    src: url('../fonts/bluenext/bluunext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bluenext/bluunext-bold-webfont.woff') format('woff'),
+         url('../fonts/bluenext/bluunext-bold.ttf') format('truetype'),
+         url('../fonts/bluenext/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bluu';
+    src: url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/bluunext-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/bluunext-bolditalic.ttf') format('truetype'),
+         url('../fonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+
+a {
+        text-decoration: none;
+        color: #xxxxxx;
+    }
+a:focus {
+        outline: none;
+
+}
+
+.menu-reglo:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/pulfiction-home.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 0px -200px;
+}
+
+.menu-reglo2:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/frank.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 0px -200px;
+}
+
+.menu-reglo3:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/bonpsychose.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 0px -100px ;
+
+}
+.menu-reglo4:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/lolita-solide-mirage.gif');
+                    background-repeat: repeat;
+                    background-size: cover;
+                    background-position: 0px 600px ;
+
+
+}
+.menu-reglo5:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/lebowski.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-position: 0px -150px ;
+
+}
+
+body {
+    background-color: black;
+    margin:120px;
+}
+.menu-reglo {
+            font-family: 'regloregular';
+            font-size: 100px;
+            line-height:150px;
+
+}
+.menu-reglo2 {
+            font-family: 'bluu';
+            font-size: 100px;
+            line-height:150px;
+}
+.menu-reglo3 {
+            font-family: 'nova_cutbook';
+            font-size: 100px;
+            line-height:150px;
+}
+.menu-reglo4 {
+            font-family: 'Solide Mirage_Etroit';
+            font-size: 80px;
+            line-height:150px;
+}
+.menu-reglo5 {
+            font-family: 'BilboINC';
+            font-size: 120px;
+            line-height:160px;
+}
+
+h1 {
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
