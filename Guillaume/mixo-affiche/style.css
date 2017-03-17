@@ -47,15 +47,15 @@ font-family: Mixo, Arial, sans-serif;
 }
 
 .intro {
-    font-family: bagnard;
+    font-family: 'bagnardregular';
     font-size: 30px;
     letter-spacing: 1px;
-    top: 6px;
+    top: 20px;
     color: white;
     position:absolute;
-    overflow:hidden;
     white-space:nowrap;
     cursor: pointer;
+    z-index: 9;
   }
 
 .back {

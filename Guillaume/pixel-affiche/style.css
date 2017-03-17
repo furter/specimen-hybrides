@@ -168,6 +168,18 @@ background: white;
 font-family: vtf_misterpixeltools, Arial, sans-serif;
 }
 
+.intro {
+    font-family: 'bagnardregular';
+    font-size: 30px;
+    letter-spacing: 1px;
+    top: 20px;
+    color: white;
+    position:absolute;
+    white-space:nowrap;
+    cursor: pointer;
+    z-index: 9;
+  }
+
 .back {
     font-family: 'grotexregular';
     color: black;
