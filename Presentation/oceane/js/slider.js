@@ -13,4 +13,8 @@ $(document).ready(function(){
       var fontSize = $( ".mySlider" ).slider("value");
       $(".container").css('font-size',fontSize);
     });
+    $(".mySlider").on( "slide", function() {
+      var fontSize = $( ".mySlider" ).slider("value");
+      $(".container2").css('font-size',fontSize);
+    });
 });
