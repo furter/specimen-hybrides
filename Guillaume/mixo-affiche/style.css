@@ -68,6 +68,10 @@ font-family: Mixo, Arial, sans-serif;
     z-index: 3;
 }
 
+a:visited {
+    color: black;
+}
+
 .world {
   overflow: hidden;
   position: absolute;
