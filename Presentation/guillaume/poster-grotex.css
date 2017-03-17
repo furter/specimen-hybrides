@@ -270,15 +270,13 @@ a:visited {
 
   .noprint  {
     display: none;
+    visibility: hidden;
   }
 
   .back {
       display: none;
   }
 
-  .header, .footer, nav, .etc {
-    display: none;
-  }
   div.chapter {
      page-break-before: always;
   }
