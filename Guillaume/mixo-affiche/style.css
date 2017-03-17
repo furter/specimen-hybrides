@@ -58,6 +58,16 @@ font-family: Mixo, Arial, sans-serif;
     cursor: pointer;
   }
 
+.back {
+    font-family: 'grotexregular';
+    color: black;
+    position: fixed;
+    font-size: 40px;
+    bottom: 5%;
+    left: 1%;
+    z-index: 3;
+}
+
 .world {
   overflow: hidden;
   position: absolute;
@@ -254,7 +264,7 @@ filter: none !important; /* IE 7 and the rest of the world */
 
 
 a {
- color: transparent;
+ color: auto;
  text-decoration: none;
     opacity: 100;
     border-bottom: 0px solid transparent;
