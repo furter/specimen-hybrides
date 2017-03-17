@@ -187,6 +187,15 @@ a:visited {
     text-decoration: none;
 }
 
+.mute {
+    position: fixed;
+    font-size: 30px;
+    right: 2%;
+    bottom: 4%;
+    z-index: 3;
+    cursor: pointer;
+}
+
 .back {
     font-family: 'grotexregular';
     color: black;

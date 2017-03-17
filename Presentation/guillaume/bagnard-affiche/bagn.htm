@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="style.css">
 	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="flow.js"></script>
+
+  <script>
+function aud_play_pause() {
+var myAudio = document.getElementById("myAudio");
+if (myAudio.paused) {
+  myAudio.play();
+} else {
+  myAudio.pause();
+}
+}
+</script>
+
+
 </head>
 <body>
 
@@ -30,6 +43,12 @@
 </svg>
 <div class="intro" class="noprint">PAP FOUNDRY</div>
 <div class="back" class="noprint"><a href="../index.html">⬅︎</a></div>
+
+<audio id="myAudio" autoplay="autoplay" class="noprint">
+<source src="../music/bagne.mp3" type='audio/mp3'>
+</audio>
+
+<div class="mute" onclick="aud_play_pause()">🎶</div>
 
 <div class="world";>
 
