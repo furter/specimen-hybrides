@@ -20,7 +20,7 @@
     font-size: 1.1em;
 }
 .ui-slider-horizontal {
-    height: .1em;
+    height: 1px;
 }
 .ui-slider {
     position: relative;
@@ -30,19 +30,19 @@
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     border: 0px solid #000;
-    background: #000 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+    background: pink url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
     font-weight: bold;
-    color: #1c94c4;
+    border-radius: 20px;
 }
 .ui-slider-horizontal .ui-slider-handle {
-    top: -.45em;
+    top: -7.45px;
     margin-left: -.6em;
 }
 .ui-slider .ui-slider-handle {
     position: absolute;
     z-index: 2;
-    width: 1em;
-    height: 1em;
+    width: 15px;
+    height: 15px;
     cursor: default;
     -ms-touch-action: none;
     touch-action: none;

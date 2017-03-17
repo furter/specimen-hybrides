@@ -51,7 +51,7 @@ img{
 	overflow: visible;
 }
 .shakes {
-	overflow: visible;
+	overflow: visible;.project .header-block h2
 }
 
 .monotype{
@@ -109,6 +109,9 @@ img{
 .lilgrotesktype{
  	font-family: 'lilgroteskregular' !important;
  }
+.lilgrotesktypebold{
+ 	font-family: 'lilgroteskbold' !important;x
+ }
 .lilgroteskregular{
  	font-family: 'lilgroteskregular' !important;
  	text-align: center;
@@ -135,6 +138,12 @@ img{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.lilgroteskregularplusplusplusplus {
+	font-family: 'lilgroteskregular' !important;
+ 	text-align: center;
+	font-size: 15px;
+}
+
 .lilgroteskbold{
  	font-family: 'lilgroteskbold' !important;
  	text-align: center;
@@ -159,9 +168,94 @@ img{
 	font-size: 20px;
 	padding-bottom: 100px;
 }
+.lilgroteskboldplusplusplusplus{
+	font-family: 'lilgroteskbold' !important;
+ 	text-align: center;
+	font-size: 15px;
+	padding-bottom: 100px;
+}
+
+.playfairtype{
+ 	font-family: 'playfair_displayregular' !important;
+ }
+.playfairregular{
+ 	font-family: 'playfair_displayregular' !important;
+ 	text-align: center;
+ 	font-size: 100px;
+ 	padding-bottom: 100px;
+}
+.playfairregularplus{
+	font-family: 'playfair_displayregular' !important;
+ 	text-align: center;
+	font-size: 60px;
+	padding-bottom: 100px;
+}
+.playfairregularplusplus{
+	font-family: 'playfair_displayregular' !important;
+ 	text-align: center;
+	font-size: 40px;
+	padding-bottom: 100px;
+}
+.playfairregularplusplusplus{
+	font-family: 'playfair_displayregular' !important;
+ 	text-align: center;
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+.playfairbold{
+ 	font-family: 'playfair_displaybold' !important;
+ 	text-align: center;
+ 	font-size: 100px;
+ 	padding-bottom: 100px;
+}
+.playfairboldplus{
+	font-family: 'playfair_displaybold' !important;
+ 	text-align: center;
+	font-size: 60px;
+	padding-bottom: 100px;
+}
+.playfairboldplusplus{
+	font-family: 'playfair_displaybold' !important;
+ 	text-align: center;
+	font-size: 40px;
+	padding-bottom: 100px;
+}
+.playfairboldplusplusplus{
+	font-family: 'playfair_displaybold' !important;
+ 	text-align: center;
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+.playfairitalic{
+ 	font-family: 'playfair_displayitalic' !important;
+ 	text-align: center;
+ 	font-size: 100px;
+ 	padding-bottom: 100px;
+}
+.playfairitalicplus{
+	font-family: 'playfair_displayitalic' !important;
+ 	text-align: center;
+	font-size: 60px;
+	padding-bottom: 100px;
+}
+.playfairitalicplusplus{
+	font-family: 'playfair_displayitalic' !important;
+ 	text-align: center;
+	font-size: 40px;
+	padding-bottom: 100px;
+}
+.playfairitalicplusplusplus{
+	font-family: 'playfair_displayitalic' !important;
+ 	text-align: center;
+	font-size: 20px;
+	padding-bottom: 100px;
+}
 
 .informations{
     font-family: 'petit_formal_scriptregular';
+    font-size: 20px;
 }
 a {
   	color: #1a1a1a;
@@ -186,11 +280,16 @@ a:hover {
     }
 
 .mySlider {
-    width: 100px;
-    margin-top: 50px;
+    width: 150px;
+    margin-top: -30px;
+    margin-left: 180px;
     
 }
 .container {
+    margin-top: 50px;
+}
+
+.container2 {
     margin-top: 50px;
 }
 
@@ -225,6 +324,10 @@ a:hover {
 #header h1:hover {
 	color: pink;
 }
+#print {
+	text-decoration: underline;
+}
+
 .head-bar {
 	height: 34px;
 	width: 100%;
@@ -266,7 +369,7 @@ a:hover {
 /* content
 --------------------------------------------------*/
 #content {
-	padding: 150px 0 0 0;
+	padding: 150px 0 40px 0;
 }
 @media screen and (max-width: 767px) {
 	#content {
@@ -524,7 +627,8 @@ h2 {
     color: black;
     padding: 7px;
     border: 1px solid #000;
-    position: fixed;
+    border-left: 0px;
+    position: absolute;
 }
 h3 {
 	font-size: 16px;
@@ -553,22 +657,23 @@ article {
   padding: 0px;
   text-align: left;
   position: relative;
+
 }
 .project .header-block {
-	padding-bottom: 10px;
+	padding-bottom: 50px;
 	padding-top: 50px;
+	position: relative;
 }
 .project .header-block h2 {
 	font-family: 'petit_formal_scriptregular';
 	font-size: 20px;
 	line-height: auto;
-	display: inline-block;
-	position: absolute;
 	height: auto;
 	width: auto;
 	margin-top: -50px;
 	margin-bottom: 30px;
 	margin-left: -30px;
+
 }
 .project .header-block p {
 	/*font-size: 16px;

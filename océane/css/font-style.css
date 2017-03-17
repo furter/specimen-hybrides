@@ -37,6 +37,23 @@
 }
 
 @font-face {
+    font-family: 'playfair_displaybold';
+    src: url('playfairdisplay-bold.woff2') format('woff2'),
+         url('playfairdisplay-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('playfairdisplay-italic.woff2') format('woff2'),
+         url('playfairdisplay-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'solide_miragemono';
     src: url('solidemiragemono.woff2') format('woff2'),
          url('solidemiragemono.woff') format('woff');
