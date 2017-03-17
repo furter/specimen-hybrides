@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="poster.css">
     <script src="jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="scripts/jquery-ui.css">
+
+    <script>
+function aud_play_pause() {
+  var myAudio = document.getElementById("myAudio");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
+}
+</script>
+
 </head>
 <body>
 
@@ -20,12 +32,11 @@
       </div>
     </div>
 
+    <audio id="myAudio" autoplay="autoplay" class="noprint">
+    <source src="music/onthefloor.mp3" type='audio/mp3'>
+    </audio>
 
-      <audio id="background_audio-1" autoplay="autoplay">
-      <source src="music/onthefloor.mp3" />
-      </audio>
-
-      <a href="#noscroll" id="mute-1">🎶</a>
+    <div class="mute" onclick="aud_play_pause()">🎶</div>
 
 
       <div class="intro">PAP FOUNDRY</div>
