@@ -382,6 +382,21 @@ nav {
   margin: 10px;
 }
 
+.sources {
+  background-color: none;
+  padding: 10px;
+}
+.sources-menu {
+  width: 100%;
+}
+
+.print {
+  background-color: none;
+  padding: 10px;
+}
+.print-menu {
+  width: 100%;
+}
 
 .outils {
   background-color: none;
