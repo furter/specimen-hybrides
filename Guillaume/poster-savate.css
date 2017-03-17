@@ -180,16 +180,16 @@ a {
     display: none;
   }
 
+  .noprint  {
+    display: none;
+  }
+
   .header, .footer, nav, .etc {
     display: none;
   }
   div.chapter {
      page-break-before: always;
   }
-
-  a:link:after, a:visited:after {
-    content: " (" attr(href) ") ";
-
     @page {
       margin-top: 0cm;
       margin-bottom: 0cm;
