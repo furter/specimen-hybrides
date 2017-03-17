@@ -1,0 +1,75 @@
+body {
+	font: 16px "Helvetica", Courier, monospace;
+	text-align: left;
+	width: 100%;
+}
+
+.content {
+	width: 800px;
+	margin: auto;
+	padding-top: 15%;
+} 
+
+img{
+	width: 150px;
+}
+
+h1{
+	font: 16px "Helvetica-bold", Courier, monospace;
+	margin-top: 0px;
+	margin: 0px;
+
+}
+
+p{
+	margin: 0px;
+}
+
+.logo, .text{
+	display: inline-block;
+	padding: 40px;
+}
+
+.text{
+	vertical-align: top;
+}
+
+td{
+	padding-left: 60px;
+	padding-bottom: 30px;
+}
+
+th{
+	vertical-align: top;
+	font: 16px "Helvetica", Courier, monospace;
+
+}
+
+.table a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+
+.table{
+	padding-top: 30px;
+}
+
+#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
