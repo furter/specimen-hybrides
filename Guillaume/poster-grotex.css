@@ -259,3 +259,55 @@ a:visited {
     margin-left: 0px;
     background: transparent;
 }
+
+
+@media print {
+
+  .open-close {
+    display: none;
+  }
+
+  .noprint  {
+    display: none;
+  }
+
+  .back {
+      display: none;
+  }
+
+  .header, .footer, nav, .etc {
+    display: none;
+  }
+  div.chapter {
+     page-break-before: always;
+  }
+  .poster-container-hidden {
+      padding: 0px;
+  }
+  .poster-format-hidden {
+      margin-top: 0%;
+      width: 820px;
+      height: 1150px;
+  }
+  .poster-format {
+    margin-top: 0%;
+    width: 820px;
+    height: 1150px;
+  }
+}
+
+@page {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 0cm;
+  margin-right: 0cm;
+}
+@page :left {
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+@page :right {
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
