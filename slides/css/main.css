@@ -1,6 +1,24 @@
-@import url(http://openfontlibrary.org/face/grupo3);
+@font-face {
+    font-family: 'regloregular';
+    src: url('../fonts/reglo/reglo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/reglo/reglo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
+@font-face {
+    font-family:'BilboINC';
+    src: url('../fonts/bilbo/BilboINC Regular.eot');
+	src: url('../fonts/bilbo/BilboINC Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bilbo/BilboINC Regular.woff2') format('woff2'),
+		url('../fonts/bilbo/BilboINC Regular.woff') format('woff'),
+		url('../fonts/bilbo/BilboINC Regular.svg#BilboINC Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+}
 
 @font-face {
     font-family: 'Solide Mirage_Etroit';
@@ -13,163 +31,129 @@
     font-weight: normal;
     font-style: normal;
 }
-/*initialise default browsers settings*/
-* {
-    margin: 0;
-    padding: 0;
+
+@font-face {
+    font-family: 'nova_cutbook';
+    src: url('../fonts/novacut/novacut_-_copie-webfont.woff2') format('woff2'),
+         url('../fonts/novacut/novacut_-_copie-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-div {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'bluu';
+    src: url('../fonts/bluenext/bluunext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bluenext/bluunext-bold-webfont.woff') format('woff'),
+         url('../fonts/bluenext/bluunext-bold.ttf') format('truetype'),
+         url('../fonts/bluenext/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bluu';
+    src: url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/bluunext-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/bluunext-bolditalic.ttf') format('truetype'),
+         url('../fonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+
+a {
+        text-decoration: none;
+        color: #xxxxxx;
+    }
+a:focus {
+        outline: none;
+
+}
+
+.menu-reglo:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/pulfiction-home.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 0px -200px;
+}
+
+.menu-reglo2:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/frank.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 0px -200px;
+}
+
+.menu-reglo3:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/bonpsychose.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 0px -100px ;
+
+}
+.menu-reglo4:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/lolita-solide-mirage.gif');
+                    background-repeat: repeat;
+                    background-size: cover;
+                    background-position: 0px 600px ;
+
+
+}
+.menu-reglo5:hover {
+                    color: #FFFFFF;
+                    background-image:url('../img/lebowski.gif');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-position: 0px -150px ;
+
+}
+
+body {
+    background-color: black;
+    margin:120px;
+}
+.menu-reglo {
+            font-family: 'regloregular';
+            font-size: 100px;
+            line-height:150px;
+
+}
+.menu-reglo2 {
+            font-family: 'bluu';
+            font-size: 100px;
+            line-height:150px;
+}
+.menu-reglo3 {
+            font-family: 'nova_cutbook';
+            font-size: 100px;
+            line-height:150px;
+}
+.menu-reglo4 {
+            font-family: 'Solide Mirage_Etroit';
+            font-size: 80px;
+            line-height:150px;
+}
+.menu-reglo5 {
+            font-family: 'BilboINC';
+            font-size: 120px;
+            line-height:160px;
+}
+
+h1 {
+    color: #FFFFFF;
     display: block;
-    page-break-inside:avoid;
-}
-p {
-  margin: 0px;
-}
+    margin: 0 auto;
+    text-align: center;
 
-.slider-wrap {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow-y:hidden;
-    overflow-x:scroll;
-}
-.slider-nav {
-    position: absolute;
-    top: 49vh;
-    width: 20px;
-    height: 20px;
-    background-color: #666666;
-    opacity: 0.5;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-    z-index: 4;
-}
-#slider-left {
-    left: 20px;
-}
-#slider-right {
-    right: 20px;
-}
-.slide-wrap {
-    position: relative;
-    height: 100vh;
-    top: 0;
-    left: 0;
-}
-.slider-slide-wrap {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
-.blue {
-  background-size: cover;
-  background-color:black;
-  color:#ffcce6;
-  display: -webkit-flex;
-  display: flex;
-}
-.inside-slide {
-  position: absolute;
-  top: 25vh;
-  width: 100%;
-  margin: auto;
-  margin-top: auto;
-
-}
-
-
-.blue p {
-    font-family: 'Solide Mirage_Etroit';
-    font-size: 8em;
-  text-align:center;
-}
-
-.first{
-    
-  background-size: cover;
-  background-image:url('../img/lolita-solide-mirage.gif');
-  color:white;
-  font-size: 8em;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.first p {
-
-  font-family: 'Solide Mirage_Etroit';
-  margin: auto;
-  margin-top: calc(50vh - 0.7em)
-}
-
-.yellow {
-  font-family:'Solide Mirage_Etroit';
-  font-size: 300px;
-  background-size: cover;
-  background-color:#ffcce6;
-  color:black;
-  text-align:center;
-  line-height:auto;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.yellow p {
-  margin: auto;
-  margin-top: calc(50vh - 0.7em);
-
-}
-
-.pink {
-  background-color: black;
-}
-.pink p {
-   font-family:'Solide Mirage_Etroit';
-   font-weight: normal;
-   font-style: normal;
-   font-size: 5em;
-   margin-top: calc(50vh - 0.7em);
-   text-align: center;
-   color: white;
-   line-height: 120%;
-}
-
-p:focus {
-  outline: none;
-}
-
-#container {
-  font-family:'Solide Mirage_Etroit';
-  position:center;
-    margin-top: calc(50vh - 0.7em);
-    font-size:5em;
-    text-align:center;
-    color:#ffcce6; 
-
-}
-
-
-.orange p {
-  font-family:'Solide Mirage_Etroit';
-
-}
-
-.violet{
-  background-color:#ffcce6;
-}
-
-.violet p{
-   font-family:'Solide Mirage_Etroit';
-   font-weight: normal;
-   font-style: normal;
-   font-size: 2em;
-   text-align: center;
-   margin-top: calc(40vh - 0.7em);
-   color: black;
-   line-height: 1.5em;
 }

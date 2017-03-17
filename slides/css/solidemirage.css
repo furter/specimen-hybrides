@@ -1,0 +1,293 @@
+@import url(http://openfontlibrary.org/face/grupo3);
+
+
+
+@font-face {
+    font-family: 'Solide Mirage_Etroit';
+    src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
+    src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff') format('woff'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff2') format('woff2'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.ttf') format('truetype'),
+            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*pab*/
+
+.hover-over .btn {
+    /*display: none;*/
+}
+
+.btn {
+    font-family: 'Solide Mirage_Etroit';
+    text-decoration: none;
+    color: #xxxxxx;
+    color: grey;
+    background:none;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 50px;
+    float:middle;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    transition: opacity 0.2s linear;
+}
+
+.btn:hover {
+    background:none;
+}
+
+.hover-over {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    background:none;
+    opacity:0;
+    float:right;
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+    transition: visibility linear 0.2s, opacity 0.2s linear;
+}
+
+.hover-over:hover {
+    color: red;
+    width: 100%;
+    height: 150px;
+    opacity:1;
+}
+
+.hover-over .show-me {
+    padding-top: 35px;
+    width: 20em;
+    margin: auto;
+    height: 30px;
+
+    /*visibility: hidden;*/
+    /*opacity:0;*/
+    /*transition: visibility linear 0.2s, opacity 0.2s linear;*/
+}
+
+.hover-over:hover .show-me {
+    visibility: visible;
+    opacity:1;
+    transition-delay:0s;
+    transition: width 0s linear;
+    background: none;
+    transition: visibility linear 0.2s, opacity 0.2s linear;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*pab*/
+
+/*initialise default browsers settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+p {
+  margin: 0px;
+}
+
+.slider-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y:hidden;
+    overflow-x:scroll;
+}
+.slider-nav {
+    position: absolute;
+    top: 49vh;
+    width: 20px;
+    height: 20px;
+    background-color: #666666;
+    opacity: 0.5;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 4;
+}
+#slider-left {
+    left: 20px;
+}
+#slider-right {
+    right: 20px;
+}
+.slide-wrap {
+    position: relative;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.slider-slide-wrap {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.blue {
+  background-size: cover;
+  background-color:black;
+  color:#ffcce6;
+  display: -webkit-flex;
+  display: flex;
+}
+.inside-slide {
+  position: absolute;
+  top: 25vh;
+  width: 100%;
+  margin: auto;
+  margin-top: auto;
+
+}
+
+.inside-slide p:nth-child(1){
+  font-size: 120px;
+  line-height:auto;
+
+  }
+.inside-slide p:nth-child(2){
+  font-size:120px; 
+  line-height:140px;
+}
+
+ 
+.inside-slide p:nth-child(3){
+  font-size:70px; 
+  line-height:110px;
+}
+
+.inside-slide p:nth-child(4){
+  font-size:70px; 
+  line-height:90px;
+
+   }
+.inside-slide p:nth-child(5){
+  font-size:70px; 
+  line-height:110px;
+}
+
+
+.blue p {
+    font-family: 'Solide Mirage_Etroit';
+    font-size: 8em;
+  text-align:center;
+}
+
+.first{
+    
+  background-size: cover;
+  background-image:url('../img/lolita-solide-mirage.gif');
+  color:white;
+  font-size: 8em;
+  display: -webkit-flex;
+  display: flex;
+  
+}
+
+.first p {
+
+  font-family: 'Solide Mirage_Etroit';
+  margin: auto;
+  margin-top: calc(50vh - 0.7em)
+}
+
+.yellow {
+  font-family:'Solide Mirage_Etroit';
+  font-size: 300px;
+  background-size: cover;
+  background-color:#ffcce6;
+  color:black;
+  text-align:center;
+  line-height:auto;
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.yellow p {
+  margin: auto;
+  margin-top: calc(50vh - 0.7em);
+
+}
+
+.pink {
+  background-color: black;
+}
+.pink p {
+   font-family:'Solide Mirage_Etroit';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 5em;
+   margin-top: calc(50vh - 0.7em);
+   text-align: center;
+   color: white;
+   line-height: 120%;
+}
+
+p:focus {
+  outline: none;
+}
+
+#container {
+  font-family:'Solide Mirage_Etroit';
+  position:center;
+    margin-top: calc(50vh - 0.7em);
+    font-size:5em;
+    text-align:center;
+    color:#ffcce6; 
+
+}
+
+
+.orange p {
+  font-family:'Solide Mirage_Etroit';
+
+}
+
+.violet{
+  background-color:#ffcce6;
+}
+
+.violet p{
+   font-family:'Solide Mirage_Etroit';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 2em;
+   text-align: center;
+   margin-top: calc(40vh - 0.7em);
+   color: black;
+   line-height: 1.5em;
+}
+
+@media screen {
+  .no-screen {
+    display: none;
+  }
+  .replique-print{
+    display:none;
+  }
+ .glyphes-print {
+  display: none;
+ }
+
+}
