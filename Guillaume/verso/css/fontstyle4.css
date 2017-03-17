@@ -154,33 +154,33 @@
 
     overflow: hidden;
     position: absolute;
-    background: transparent; 
+    background: transparent;
 }
 
 .specimen-texte2 {
     font-family: 'nimbus_roman_no9_lRgIt';
     overflow: hidden;
     position: absolute;
-    background: transparent; 
+    background: transparent;
 }
 
 .specimen-texte3 {
     font-family: 'nimbus_roman_no9_lbold';
     overflow: hidden;
     position: absolute;
-    background: transparent; 
+    background: transparent;
 }
 
 .specimen-texte4 {
     font-family: 'nimbus_roman_no9_lbold_italic';
     overflow: hidden;
     position: absolute;
-    background: transparent; 
+    background: transparent;
 }
 
 
 .premier-mot{
-    font-family:'nimbus_roman_no9_lregular'; 
+    font-family:'nimbus_roman_no9_lregular';
     font-size: 10px;
     margin-left: 0px;
     display: inline-block;
