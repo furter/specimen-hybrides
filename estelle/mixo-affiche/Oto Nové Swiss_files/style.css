@@ -1,0 +1,1381 @@
+@import "compass/css3";
+
+
+@font-face {
+    font-family: 'savateitalique';
+    src: url('fontes/savate-italique-webfont.eot');
+    src: url('fontes/savate-italique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/savate-italique-webfont.woff2') format('woff2'),
+         url('fontes/savate-italique-webfont.woff') format('woff'),
+         url('fontes/savate-italique-webfont.ttf') format('truetype'),
+         url('fontes/savate-italique-webfont.svg#savateitalique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'savateregular';
+    src: url('fontes/savate-regular-webfont.eot');
+    src: url('fontes/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/savate-regular-webfont.woff2') format('woff2'),
+         url('fontes/savate-regular-webfont.woff') format('woff'),
+         url('fontes/savate-regular-webfont.ttf') format('truetype'),
+         url('fontes/savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'grotexregular';
+    src: url('fontes/grotex-regular-webfont.woff2') format('woff2'),
+         url('fontes/grotex-regular-webfont.woff') format('woff'),
+         url('fontes/grotex-regular-webfont.svg#grotexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixelregular';
+    src: url('fontes/mister_pixel_regular-webfont.woff2') format('woff2'),
+         url('fontes/mister_pixel_regular-webfont.woff') format('woff'),
+         url('fontes/mister_pixel_regular-webfont.svg#vtf_misterpixelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixeltools';
+    src: url('fontes/mister_pixel_tools-webfont.woff2') format('woff2'),
+         url('fontes/mister_pixel_tools-webfont.woff') format('woff'),
+         url('fontes/mister_pixel_tools-webfont.svg#vtf_misterpixeltools') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold';
+    src: url('fontes/nimbusromno9l-med-webfont.woff2') format('woff2'),
+         url('fontes/nimbusromno9l-med-webfont.woff') format('woff'),
+         url('fontes/nimbusromno9l-med-webfont.svg#nimbus_roman_no9_lbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    src: url('fontes/nimbusromno9l-medita-webfont.woff2') format('woff2'),
+         url('fontes/nimbusromno9l-medita-webfont.woff') format('woff'),
+         url('fontes/nimbusromno9l-medita-webfont.svg#nimbus_roman_no9_lbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lregular';
+    src: url('fontes/nimbusromno9l-reg-webfont.woff2') format('woff2'),
+         url('fontes/nimbusromno9l-reg-webfont.woff') format('woff'),
+         url('fontes/nimbusromno9l-reg-webfont.svg#nimbus_roman_no9_lregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    src: url('fontes/nimbusromno9l-regita-webfont.woff2') format('woff2'),
+         url('fontes/nimbusromno9l-regita-webfont.woff') format('woff'),
+         url('fontes/nimbusromno9l-regita-webfont.svg#nimbus_roman_no9_lRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bagnardregular';
+    src: url('fontes/bagnard-webfont.woff2') format('woff2'),
+         url('fontes/bagnard-webfont.woff') format('woff'),
+         url('fontes/bagnard-webfont.svg#bagnardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mixo';
+  src: url('fontes/VTF_Mixo.eot'); /* IE9 Compat Modes */
+  src: url('fontes/VTF_Mixo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fontes/VTF_Mixo.woff') format('woff'), /* Modern Browsers */
+       url('fontes/VTF_Mixo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fontes/VTF_Mixo.svg#mixo') format('svg'); /* Legacy iOS */
+}
+
+.Mixo{
+  font-family: 'Mixo';
+}
+
+.bagnardregular{
+  font-family: 'bagnardregular';
+}
+
+:root {
+ --first-bg-color: black;
+ --second-bg-color: transparent;
+ --third-bg-color: #fff;
+ --fourth-bg-color: white;
+ --fifth-bg-color: white;
+ --sixth-bg-color: white;
+ --seventh-bg-color: blue;
+ --eight-bg-color: red;
+
+ --big1-bg-color: yellow;
+ --big2-bg-color: red;
+ --big3-bg-color: blue;
+ --big4-bg-color: green;
+}
+
+body {
+color: var(--fourth-bg-color);
+margin: 0;
+padding: 0;
+font-size: 0px;
+line-height: 0px;
+background: white;
+overflow: hidden;
+font-family: Mixo, Arial, sans-serif;
+}
+
+.world {
+  overflow: hidden;
+  position: absolute;
+  width: 66vh;
+  height: 90vh;
+  margin: calc(50vh - 45vh) calc(50vw - 33vh);
+  top: 0px;
+  left: 0px;
+  background: ;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+}
+
+.world2 {
+  background-color: lightyellow;
+}
+
+.infos {
+  color: black;
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+ font-size: 2.8vh;
+ line-height: 3.2vh;
+  padding: 20px;
+  font-weight: 100;
+    background: blue;
+}
+
+.close {
+  display: none;
+}
+
+.close-closed {
+  display: block;
+}
+
+.open-close {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-top: 0px;
+  position: absolute;
+  transition: 0.5s;
+  left: calc(50% + 35vh);
+  top: 5.5vh;
+  background: transparent;
+}
+
+.open-close::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 4px;
+    left: 24px;
+}
+
+.open-close:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    bottom: 24px;
+    left: 5px;
+  }
+
+.open {
+  border: 2px solid white;
+  background: transparent;
+  transform: rotate(225deg);
+}
+
+.open::before {
+   background: white;
+}
+
+.open::after {
+   background: white;
+}
+
+.wrap {
+  -webkit-filter : none;
+  filter: none;
+  z-index: 20;
+}
+
+
+
+.gradient-1 {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  z-index: 10;
+  background-image: url('http://www.otonoveswiss.co.uk/img/gradient.png');
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  pointer-events: none;
+}
+
+.gradient-2 {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 10;
+  background-image: url('http://www.otonoveswiss.co.uk/img/gradient-2.png');
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  pointer-events: none;
+}
+*/
+
+
+.mouse {
+  z-index: 50;
+ left: 50%;
+ top: 50%;
+ position: absolute;
+ width: 8vh;
+ height: 8vh;
+ background: var(--third-bg-color);
+ margin-top: calc((50vh - 45vh + 4vh) * -1);
+ margin-left: calc((50vw - 33vh + 4vh) * -1);
+ pointer-events: none;
+ border-radius: 40vh;
+ border: 0px solid white;
+ -webkit-transition: width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+ -moz-transition: width 1s ease;
+ -o-transition: width 1s ease;
+ transition: width 1s easee;
+}
+
+
+.mouseleave {
+  display: none;
+}
+
+
+.mousebig {
+width: 18vh;
+height: 18vh;
+margin-top: calc((50vh - 45vh + 9vh) * -1);
+margin-left: calc((50vw - 33vh + 9vh) * -1);
+}
+
+
+.box {
+    cursor: none;
+  all: revert;
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)" /* IE 8+ */;
+filter: none !important; /* IE 7 and the rest of the world */
+ position: absolute;
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s easee;
+}
+
+
+
+a {
+ color: var(--fourth-bg-color);
+ text-decoration: none;
+    opacity: 0.7;
+    border-bottom: 0px solid grey;
+}
+
+.hover-blue:hover {
+  color:yellow;
+}
+
+
+/*
+.paper {
+ pointer-events: none;
+ width: 100%;
+ height: 100%;
+ overflow: visible;
+ preserveAspetRatio: none;
+ position: absolute;
+}
+*
+
+.paper.circle1 {
+ left: 0px;
+ top: 0px;
+ height: 100%;
+ width: auto;
+}
+
+.paper.circle2 {
+ right: 0px;
+ top: 0px;
+ height: 100%;
+ width: auto;
+}
+
+.paper.circle3 {
+ left: 0px;
+ bottom: 0px;
+ height: 100%;
+ width: auto;
+}
+
+.paper.circle4 {
+ right: 0px;
+ bottom: 0px;
+ height: 100% auto;
+ width: auto;
+}
+*/
+
+
+.border {
+ position: absolute;
+ top: 2vh;
+ bottom: 2vh;
+ left: 2vh;
+ right: 2vh;
+}
+
+.stroke {
+ fill: transparent;
+ stroke-linecap: round;
+ vector-effect: non-scaling-stroke;
+ stroke-width: 2px;
+ stroke: var(--fifth-bg-color);
+  stroke-dasharray:0, 0;
+}
+
+.stroke.B {
+ stroke: var(--sixth-bg-color);
+}
+
+.stroke.uber {
+ fill: var(--first-bg-color);
+ stroke: transparent;
+ mix-blend-mode: normal;
+}
+
+.stroke.fill1 {
+ fill: var(--seventh-bg-color);
+ stroke: transparent;
+ mix-blend-mode: normal;
+ -webkit-transition: fill 1s ease;
+ -moz-transition: fill 1s ease;
+ -o-transition: fill 1s ease;
+ transition: fill 1s easee;
+}
+
+.stroke.fill2 {
+   fill: var(--big1-bg-color);
+ stroke: transparent;
+ mix-blend-mode: normal;
+}
+
+.stroke.fill3 {
+   fill: var(--big2-bg-color);
+ stroke: transparent;
+ mix-blend-mode: normal;
+}
+
+.stroke.fill4 {
+   fill: var(--big3-bg-color);
+ stroke: transparent;
+ mix-blend-mode: normal;
+}
+
+.stroke.fill5 {
+   fill: var(--big4-bg-color);
+ stroke: transparent;
+ mix-blend-mode: normal;
+}
+
+.stroke.schwarz {
+ stroke: var(--fifth-bg-color);;
+}
+
+.band {
+ position: absolute;
+ bottom: -2px;
+ font-size: 20px;
+ line-height: 20px;
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s easee;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: clip;
+ width: 99%;
+ font-weight: 100;
+ opacity: 0.7;
+}
+
+.band5 {
+ position: absolute;
+ bottom: -2px;
+ font-size: 40px;
+ line-height: 40px;
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s easee;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: clip;
+ width: 200%;
+ font-weight: 100;
+ opacity: 0.7;
+}
+
+.band-active {
+ font-size: 2.8vh;
+ line-height: 3.2vh;
+}
+
+.band-transparent {
+ opacity: 0.7;
+}
+
+.datum {
+ position:absolute;
+ text-align: right;
+ width: 100%;
+ right: 0px;
+ left: 0px;
+ font-size: 2vh;
+ line-height: 2vh;
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s easee;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: clip;
+ font-weight: 100;
+ opacity: 100;
+}
+
+.datum-active {
+ font-size: 2.8vh;
+ line-height: 3.2vh;
+}
+
+.datum-transparent {
+ opacity: 0.7;
+}
+
+.land {
+ padding-left: 0.8vh;
+ font-size: 2vh;
+ line-height: 2vh;
+ opacity: 0;
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s easee;
+}
+
+.land-visible {
+ padding-left: 0.8vh;
+ font-size: 2vh;
+ line-height: 2vh;
+ opacity: 1;
+}
+
+.eins {
+ height: 33%;
+ width: 33%;
+ left: 0%;
+ top: 0%;
+ padding-bottom: 5px;
+}
+
+.zwei {
+ height: 33%;
+ width: 33%;
+ left: 33%;
+ top:0%;
+ background: var(--second-bg-color);
+ margin-left: 0px;
+ padding-right: 0px;
+ padding-bottom: 5px;
+}
+
+.drei {
+ height: 33%;
+ width: 34%;
+ left: 66%;
+ top: 0%;
+ padding-bottom: 5px;
+}
+
+.vier {
+ height: 33%;
+ width: 25%;
+ top: 33%;
+ left: 0%;
+ background: var(--second-bg-color);
+ margin-top:-5px;
+ padding-bottom: 10px;
+}
+
+.funf {
+ height: 33%;
+ width: 25%;
+ top: 33%;
+ left: 25%;
+ margin-top:-5px;
+ padding-bottom: 10px;
+}
+
+.sechs {
+ height: 33%;
+ width: 25%;
+ top: 33%;
+ left: 50%;
+ padding-right: 20px;
+ margin-left: -20px;
+ margin-top:-5px;
+ padding-bottom: 10px;
+ background: var(--second-bg-color);
+}
+
+.sieben {
+ height: 33%;
+ width: 25%;
+ top: 33%;
+ left: 75%;
+ background: var(--second-bg-color);
+ margin-top:-5px;
+ padding-bottom: 10px;
+}
+
+.acht {
+ height: 33%;
+ width: 20%;
+ top: 66%;
+ left: 0%;
+ margin-top:-5px;
+ padding-bottom: 5px;
+ background: var(--second-bg-color);
+
+}
+
+.neun {
+ height: 33%;
+ width: 20%;
+ top: 66%;
+ left: 20%;
+ background: var(--second-bg-color);
+ margin-top:-5px;
+ padding-bottom: 5px;
+}
+
+.zehn {
+ height: 33%;
+ width: 20%;
+ top: 66%;
+ left: 40%;
+ margin-top:-5px;
+ padding-bottom: 5px;
+}
+
+.elf {
+ height: 33%;
+ width: 20%;
+ top: 66%;
+ left: 60%;
+ background: var(--second-bg-color);
+ margin-top:-5px;
+ padding-bottom: 5px;
+}
+
+.zwolf {
+ height: 33%;
+ width: 20%;
+ top: 66%;
+ left: 80%;
+ margin-top:-5px;
+ padding-bottom: 5px;
+ background: var(--second-bg-color);
+}
+
+.eins-C1 {
+ width: 60%;
+ height: 60%;
+}
+
+.zwei-C1 {
+ width: 20%;
+ height: 60%;
+ left: 60%;
+}
+
+.drei-C1 {
+ width: 20%;
+ height: 60%;
+ left: 80%;
+}
+
+.vier-C1 {
+ height: 20%;
+ top: 60%;
+}
+
+.funf-C1 {
+ height: 20%;
+ top: 60%;
+}
+
+.sechs-C1 {
+ height: 20%;
+ top: 60%;
+}
+
+.sieben-C1 {
+ height: 20%;
+ top: 60%;
+}
+
+.acht-C1 {
+ height: 20%;
+ top: 80%;
+}
+
+.neun-C1 {
+ height: 20%;
+ top: 80%;
+}
+
+.zehn-C1 {
+ height: 20%;
+ top: 80%;
+}
+
+.elf-C1 {
+ height: 20%;
+ top: 80%;
+}
+
+.zwolf-C1 {
+ height: 20%;
+ top: 80%;
+}
+
+/*  C 2   */
+
+.eins-C2 {
+ width: 20%;
+ height: 50%;
+}
+
+.zwei-C2 {
+ width: 60%;
+ height: 50%;
+ left: 20%;
+}
+
+.drei-C2 {
+ width: 20%;
+ height: 50%;
+ left: 80%;
+}
+
+.vier-C2 {
+ height: 25%;
+ top: 50%;
+}
+
+.funf-C2 {
+ height: 25%;
+ top: 50%;
+}
+
+.sechs-C2 {
+ height: 25%;
+ top: 50%;
+}
+
+.sieben-C2 {
+ height: 25%;
+ top: 50%;
+}
+
+.acht-C2 {
+ height: 25%;
+ top: 75%;
+}
+
+.neun-C2 {
+ height: 25%;
+ top: 75%;
+}
+
+.zehn-C2 {
+ height: 25%;
+ top: 75%;
+}
+
+.elf-C2 {
+ height: 25%;
+ top: 75%;
+}
+
+.zwolf-C2 {
+ height: 25%;
+ top: 75%;
+}
+
+/*  C 3   */
+
+.eins-C3 {
+ width: 20%;
+ height: 60%;
+ left: 0%;
+}
+
+.zwei-C3 {
+ width: 20%;
+ height: 60%;
+ left: 20%;
+}
+
+.drei-C3 {
+ width: 60%;
+ height: 60%;
+ left: 40%;
+}
+
+/*  C 4   */
+
+.eins-C4 {
+ height: 20%;
+}
+
+.zwei-C4 {
+ height: 20%;
+}
+
+.drei-C4 {
+ height: 20%;
+}
+
+.vier-C4 {
+ height: 60%;
+ width: 40%;
+ top: 20%;
+}
+
+.funf-C4 {
+ height: 60%;
+ width: 20%;
+ top: 20%;
+ left: 40%;
+}
+
+.sechs-C4 {
+ height: 60%;
+ width: 20%;
+ top: 20%;
+ left: 60%;
+}
+
+.sieben-C4 {
+ height: 60%;
+ width: 20%;
+ top: 20%;
+ left: 80%;
+}
+
+/*  C 5  */
+
+.eins-C5 {
+ height: 25%;
+}
+
+.zwei-C5 {
+ height: 25%;
+}
+
+.drei-C5 {
+ height: 25%;
+}
+
+.vier-C5 {
+ height: 50%;
+ width: 20%;
+ top: 25%;
+}
+
+.funf-C5 {
+ height: 50%;
+ width: 40%;
+ top: 25%;
+ left: 20%;
+}
+
+.sechs-C5 {
+ height: 50%;
+ width: 20%;
+ top: 25%;
+ left: 60%;
+}
+
+.sieben-C5 {
+ height: 50%;
+ width: 20%;
+ top: 25%;
+ left: 80%;
+}
+
+/*  C 6  */
+
+.funf-C6 {
+ height: 50%;
+ width: 20%;
+ top: 25%;
+ left: 20%;
+}
+
+.sechs-C6 {
+ height: 50%;
+ width: 40%;
+ top: 25%;
+ left: 40%;
+}
+
+/*  C 7  */
+
+.vier-C7 {
+ height: 60%;
+ width: 20%;
+ top: 20%;
+}
+
+.funf-C7 {
+ height: 60%;
+ width: 20%;
+ top: 20%;
+ left: 20%;
+}
+
+.sechs-C7 {
+ height: 60%;
+ width: 20%;
+ top: 20%;
+ left: 40%;
+}
+
+.sieben-C7 {
+ height: 60%;
+ width: 40%;
+ top: 20%;
+ left: 60%;
+}
+
+/*  C 8  */
+
+.eins-C8 {
+ width: 33%;
+ height: 20%;
+}
+
+.zwei-C8 {
+ width: 34%;
+ height: 20%;
+ left: 33%;
+}
+
+.drei-C8 {
+ width: 34%;
+ height: 20%;
+ left: 66%;
+}
+
+.vier-C8 {
+ height: 20%;
+ top: 20%;
+}
+
+.funf-C8 {
+ height: 20%;
+ top: 20%;
+}
+
+.sechs-C8 {
+ height: 20%;
+ top: 20%;
+}
+
+.sieben-C8 {
+ height: 20%;
+ top: 20%;
+}
+
+.acht-C8 {
+ height: 60%;
+ width: 60%;
+ top: 40%;
+}
+
+.neun-C8 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 60%;
+}
+
+.zehn-C8 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 70%;
+}
+
+.elf-C8 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 80%;
+}
+
+.zwolf-C8 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 90%;
+}
+
+/*  C 9  */
+
+.eins-C9 {
+ width: 33%;
+ height: 25%;
+}
+
+.zwei-C9 {
+ width: 34%;
+ height: 20%;
+ height: 25%;
+}
+
+.drei-C9 {
+ width: 34%;
+ height: 20%;
+ height: 25%;
+}
+
+.vier-C9 {
+ height: 25%;
+ top: 25%;
+}
+
+.funf-C9 {
+ height: 25%;
+ top: 25%;
+}
+
+.sechs-C9 {
+ height: 25%;
+ top: 25%;
+}
+
+.sieben-C9 {
+ height: 25%;
+ top: 25%;
+}
+
+.acht-C9 {
+ height: 50%;
+ width: 10%;
+ top: 50%;
+}
+
+.neun-C9 {
+ height: 50%;
+ top: 50%;
+ width: 60%;
+ left: 10%;
+}
+
+.zehn-C9 {
+ height: 50%;
+ top: 50%;
+ width: 10%;
+ left: 70%;
+}
+
+.elf-C9 {
+ height: 50%;
+ top: 50%;
+ width: 10%;
+ left: 80%;
+}
+
+.zwolf-C9 {
+ height: 50%;
+ top: 50%;
+ width: 10%;
+ left: 90%;
+}
+
+/*  C 10  */
+
+.eins-C10 {
+ width: 33%;
+ height: 30%;
+}
+
+.zwei-C10 {
+ width: 34%;
+ height: 30%;
+}
+
+.drei-C10 {
+ width: 34%;
+ height: 30%;
+}
+
+.vier-C10 {
+ height: 30%;
+ top: 30%;
+}
+
+.funf-C10 {
+ height: 30%;
+ top: 30%;
+}
+
+.sechs-C10 {
+ height: 30%;
+ top: 30%;
+}
+
+.sieben-C10 {
+ height: 30%;
+ top: 30%;
+}
+
+.acht-C10 {
+ height: 40%;
+ width: 10%;
+ top: 60%;
+}
+
+.neun-C10 {
+ height: 40%;
+ top: 60%;
+ width: 10%;
+ left: 10%;
+}
+
+.zehn-C10 {
+ height: 40%;
+ top: 60%;
+ width: 60%;
+ left: 20%;
+}
+
+.elf-C10 {
+ height: 40%;
+ top: 60%;
+ width: 10%;
+ left: 80%;
+}
+
+.zwolf-C10 {
+ height: 40%;
+ top: 60%;
+ width: 10%;
+ left: 90%;
+}
+
+/*  C 11  */
+
+.neun-C11 {
+ height: 50%;
+ top: 50%;
+ width: 10%;
+ left: 10%;
+}
+
+.zehn-C11 {
+ height: 50%;
+ top: 50%;
+ width: 10%;
+ left: 20%;
+}
+
+.elf-C11 {
+ height: 50%;
+ top: 50%;
+ width: 60%;
+ left: 30%;
+}
+
+/*  C 12  */
+
+.acht-C12 {
+ height: 60%;
+ width: 10%;
+ top: 40%;
+}
+
+.neun-C12 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 10%;
+}
+
+.zehn-C12 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 20%;
+}
+
+.elf-C12 {
+ height: 60%;
+ top: 40%;
+ width: 10%;
+ left: 30%;
+}
+
+.zwolf-C12 {
+ height: 60%;
+ top: 40%;
+ width: 60%;
+ left: 40%;
+}
+
+.credits {
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  right: -141px;
+  bottom: 154px;
+  transform: rotate(-90deg);
+  height: 20px;
+  width: 300px;
+}
+
+.credits-a {
+  color: black;
+}
+
+.credits-open {
+  color: white;
+}
+
+.line {
+  position: absolute;
+  height: calc(100% - 4vh);
+  top: 2vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: calc(100% - 7px);
+}
+
+
+@media screen and (max-width: 600px) {
+
+.credits {
+  display: none;
+}
+
+.mouse {
+ width: 8vh;
+ height: 8vh;
+ margin-top: -4vh;
+ margin-left: -4vh;
+}
+
+.mousebig {
+width: 18vh;
+height: 18vh;
+margin-top: -9vh;
+margin-left: -9vh;
+}
+
+.world {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  background: black;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+  .open-close {
+  left: initial;
+    right: 15px;
+  top: 15px;
+  border: 2px solid white;
+  background: black;
+  }
+
+.open-close::before {
+    background:white;
+}
+
+.open-close::after {
+    background:white;
+}
+
+.open {
+  border: 2px solid white;
+  }
+
+  .open::before {
+    background:white;
+  }
+
+    .open::after {
+    background:white;
+  }
+
+
+
+  .gradient-1 {
+    display: none;
+  }
+
+  .gradient-2 {
+    display: none;
+  }
+
+}
+
+
+/* Chrome 29+ */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm)
+{
+    .chrome_only {
+
+  -webkit-filter : url('#fancy-goo');
+  filter: url('#fancy-goo');
+  z-index: 20;
+
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+  .infos{
+ font-size: 2.6vh;
+ line-height: 3vh;
+  }
+
+.stroke {
+   stroke-width: 1px;
+}
+
+.mouse {
+    display: none;
+}
+
+.open-close {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.open-close::before {
+    width: 1px;
+    height: 40px;
+    top: 4px;
+    left: 24px;
+}
+
+.open-close:after {
+    width: 40px;
+    height: 1px;
+    bottom: 24px;
+    left: 5px;
+  }
+
+.open {
+  border: 1px solid white;
+}
+
+}
