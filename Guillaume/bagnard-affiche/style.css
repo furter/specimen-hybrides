@@ -1535,25 +1535,23 @@ box-shadow: none;
 
 @media print {
 
-  .open-close {
-    display: none;
-  }
   .world {
     background-image:url(img/bagnard.jpg);
+    margin-left: 0px;
+    margin-top: -30px;
+    width: 215mm;
+    height: 305mm;
   }
-  .header, .footer, nav, .etc {
+
+  .noprint  {
     display: none;
   }
-  div.chapter {
-     page-break-before: always;
-  }
-  img {
-     page-break-inside: avoid;
-  }
-  a:link:after, a:visited:after {
-    content: " (" attr(href) ") ";
+
+  .back {
+      display: none;
   }
 }
+
 @page {
   margin-top: 0cm;
   margin-bottom: 0cm;
@@ -1569,6 +1567,7 @@ box-shadow: none;
     margin-left: 0cm;
     margin-right: 0cm;
 }
+
 
 @media screen {
 
