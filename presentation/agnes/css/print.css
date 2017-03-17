@@ -1,0 +1,333 @@
+@media print {
+ 
+	#content {
+	width: 100%; 
+	margin: 0; 
+	float: none; 
+	}
+
+ 	@page {
+	 margin-top: 1.2cm;
+	 margin-bottom: 0cm;
+	 margin-left: 3cm;
+	 margin-right: 3cm;
+	}
+
+	.page-home .scroll-container {
+		height: auto !important;
+}
+	.page-home {
+		height: auto !important;
+	}
+
+	.chapter {
+     page-break-before: always; /*// AVANT L’ÉLÉMENT*/
+  	}
+
+  img {
+     page-break-inside: avoid; /*// JAMAIS DANS L’ÉLÉMENT*/
+  }
+
+	body {
+		overflow-wrap: break-word;
+		height: auto;
+		text-align: center;
+
+	}
+
+	h1, .arrows, .ui-slider, .application, .appimg {
+		display: none;
+	}
+
+	#h2first {
+		page-break-before: avoid;
+	}
+
+
+		h2 {
+		font-family: 'petit_formal_scriptregular';
+		font-weight: normal;
+		font-size: 15px;
+		page-break-before: always;
+		border: 0.5px solid black;
+		width: 12em;
+		padding: 0.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h2.manuscripte {
+		display: inline;
+
+	}
+
+
+	.typehereletter {
+		font-family: 'petit_formal_scriptregular';
+	}
+
+	.informations{
+		font-family: 'petit_formal_scriptregular';
+		font-size: 15px;
+	}
+
+	#print {
+			display:none;
+		}
+
+	#link {
+		display: none;
+	}
+
+
+/*___________JANVIER_____________*/
+
+	.lilgroteskregular {
+		font-family: 'lilgroteskregular';
+		font-size: 87px;
+		line-height: 95px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		margin-top: -0.8cm;
+	}
+
+	.lilgroteskregularplus {
+		font-family: 'lilgroteskregular';
+		font-size: 60px;
+		line-height: 67px;
+		page-break-after: avoid;
+		margin-top: -1cm;		
+	}
+
+	.lilgroteskregularplusplus {
+		font-family: 'lilgroteskregular';
+		font-size: 40px;
+		page-break-after: avoid;
+		margin-top: 0cm;		
+	}
+
+	.lilgroteskregularplusplusplus{
+		font-family: 'lilgroteskregular';
+		font-size: 24px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+	}
+
+	.lilgroteskregularplusplusplusplus
+		{
+		font-family: 'lilgroteskregular';
+		font-size: 12pt;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+		
+		}
+
+/*______style_________*/
+
+	.lilgroteskbold {
+		font-family: 'lilgroteskbold';
+		font-size: 87px;
+		line-height: 95px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		margin-top: -0.8cm;
+		
+	}
+
+	.lilgroteskboldplus {
+		font-family: 'lilgroteskbold';
+		font-size: 60px;
+		line-height: 67px;
+		page-break-after: avoid;
+		margin-top: -1cm;	
+		
+	}
+
+	.lilgroteskboldplusplus {
+		font-family: 'lilgroteskbold';
+		font-size: 40px;
+		page-break-after: avoid;
+		margin-top: 0cm;
+		
+	}
+
+	.lilgroteskboldplusplusplus{
+		font-family: 'lilgroteskbold';
+		font-size: 24px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+	}
+
+	.lilgroteskboldplusplusplusplus
+		{
+		font-family: 'lilgroteskbold';
+		font-size: 12pt;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+		}
+
+		#lettreeditable {
+		font-family: 'lilgroteskregular';
+		font-size: 16px;
+		margin-top: 0cm;
+		}
+		#lettreeditablebold {
+		font-family: 'lilgroteskbold';
+		font-size: 16px;
+		margin-top: 0cm;
+		}
+
+
+	/*___________DECEMBRE_____________*/
+
+
+	.playfairregular {
+		font-family: 'playfairdisplayregular';
+		font-size: 80px;
+		line-height: 90px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		margin-top: -0.8cm;
+	}
+
+	.playfairregularplus {
+		font-family:'playfairdisplayregular';
+		font-size: 55px;
+		line-height: 64px;
+		page-break-after: avoid;
+		padding-top: 0.5cm;		
+	}
+
+	.playfairregularplusplus {
+		font-family: 'playfairdisplayregular';
+		font-size: 40px;
+		page-break-after: avoid;
+		margin-top: 0cm;		
+	}
+
+	.playfairregularplusplusplus{
+		font-family: 'playfairdisplayregular';
+		font-size: 24px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+	}
+
+	.playfairregularplusplusplusplus
+		{
+		font-family: 'playfairdisplayregular';
+		font-size: 12pt;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+		}
+
+/*______style_________*/
+
+	.playfairitalic{
+		font-family: 'playfair_displayitalic';
+		font-size: 80px;
+		line-height: 90px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		margin-top: -0.8cm;
+	}
+
+
+	.playfairitalicplus{
+		font-family: 'playfair_displayitalic';
+		font-size: 55px;
+		line-height: 64px;
+		page-break-after: avoid;
+		padding-top: 0.5cm;
+	}
+
+	.playfairitalicplusplus{
+		font-family: 'playfair_displayitalic';
+		font-size: 40px;
+		line-height: 50px;
+		page-break-after: avoid;
+		margin-top: 0cm;
+	}
+
+
+	.playfairitalicplusplusplus{
+		font-family: 'playfair_displayitalic';
+		font-size: 24px;
+		line-height: 30px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+	}
+
+
+	.playfairitalicplusplusplusplus{
+		font-family: 'playfair_displayitalic';
+		font-size: 12pt;
+		line-height: 20px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+		}
+
+
+/*______style_________*/
+
+	.playfairbold{
+  		font-family: 'playfair_displaybold';
+		font-size: 80px;
+		line-height: 90px;
+		page-break-before: avoid;
+		padding-bottom: 30px;
+		margin-top: -0.8cm;
+	}
+
+
+	.playfairboldplus{
+  		font-family: 'playfair_displaybold';
+		font-size: 55px;
+		line-height: 64px;
+		page-break-after: avoid;
+		padding-top: 1cm;
+	}
+
+	.playfairboldplusplus{
+  		font-family: 'playfair_displaybold';
+		font-size: 40px;
+		line-height: 50px;
+		page-break-after: avoid;
+		margin-top: 0cm;
+	}
+
+
+	.playfairboldplusplusplus{
+  		font-family: 'playfair_displaybold';
+		font-size: 24px;
+		line-height: 30px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+	}
+
+
+	.playfairboldplusplusplusplus{
+  		font-family: 'playfair_displaybold';
+		font-size: 12pt;
+		line-height: 20px;
+		page-break-after: avoid;
+		margin-top: 1.5cm;
+		}
+
+
+
+
+/*______style_________*/
+
+	#lettreeditable12 {
+		font-family: 'playfair_displayregular';
+		font-size: 16px;
+	}
+
+
+
+
+
+
+
+
+}
