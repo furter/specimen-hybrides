@@ -1,0 +1,478 @@
+/*initialise default browsers settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+
+/*Poster*/
+
+.intro {
+    font-family: bagnard;
+    font-size: 30px;
+    letter-spacing: 1px;
+    top: 6px;
+    color: white;
+    position:absolute;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor: pointer;
+  }
+
+.poster-container {
+    display: flex;
+    /*put items vertically*/
+    flex-direction: column;
+    /*align all items in vertical center */
+    justify-content: center;
+    /*align all items in horz center */
+    align-items: center;
+    padding:20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#mute-1 {
+    position: fixed;
+    font-size: 30px;
+    right: 2%;
+    bottom: 2%;
+    z-index: 3;
+}
+
+.back {
+    font-family: 'grotexregular';
+    color: black;
+    position: fixed;
+    font-size: 40px;
+    bottom: 0%;
+    left: 1%;
+    z-index: 3;
+}
+
+.poster-format {
+    -webkit-hyphens: auto;
+    position: relative;
+    -ms-hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+    background-color: black;
+    margin: auto;
+    margin-top: 4%;
+    width: 610px;
+    height: 850px;
+    cursor: pointer;
+   -moz-box-shadow:    inset  0  8px 8px -8px #696868,
+                      inset  0 -8px 8px -8px #696868;
+  -webkit-box-shadow: inset  0  8px 8px -8px #696868,
+                      inset  0 -8px 8px -8px #696868;
+    box-shadow:        inset  0  30px 30px -30px #696868,
+                      inset  0 -30px 30px -30px #696868;
+}
+
+.poster-container-hidden {
+    display: flex;
+    /*put items vertically*/
+    flex-direction: column;
+    /*align all items in vertical center */
+    justify-content: center;
+    /*align all items in horz center */
+    align-items: center;
+    padding:20px;
+
+}
+
+.poster-format-hidden {
+
+    -webkit-hyphens: auto;
+    position: relative;
+    -ms-hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+    background-color: white;
+    margin: auto;
+    margin-top: 4%;
+    width: 610px;
+    height: 850px;
+   -moz-box-shadow:    inset  0  8px 8px -8px #696868,
+                      inset  0 -8px 8px -8px #696868;
+  -webkit-box-shadow: inset  0  8px 8px -8px #696868,
+                      inset  0 -8px 8px -8px #696868;
+    box-shadow:        inset  0  30px 30px -30px #696868,
+                      inset  0 -30px 30px -30px #696868;
+
+}
+
+.reading {
+  font-family: nimbusregular;
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  line-height: 152px;
+ -webkit-text-stroke: 1px white;
+ -webkit-text-fill-color: transparent;
+}
+
+/*
+.reading:hover {
+    cursor: url(img/pencil_new.png), auto;
+}
+*/
+
+.burn {
+  font-family: nimbusregular;
+  overflow: auto;
+  font-size: 300px;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: red;
+  -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+       -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.burn:hover {
+  color: blue;
+  content: url(img/burn.gif);
+  -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+@keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+}
+
+.after {
+    font-family: nimbusregularitalic;
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: green;
+    animation: inner-circle 5s linear infinite;
+}
+
+.after:hover {
+    content: url(img/rave.gif); /* no need for qoutes */
+    display: inline-block;
+    position: absolute;
+    animation: circle 5s linear infinite;
+    left: 15%; /* change this value to one that suits you */
+    top: 35%; /* change this value to one that suits you */
+}
+
+audio {
+   display:none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+@media print {
+
+  .open-close {
+    display: none;
+  }
+
+  .noprint  {
+    display: none;
+  }
+
+  .back {
+      display: none;
+  }
+
+  .header, .footer, nav, .etc {
+    display: none;
+  }
+  div.chapter {
+     page-break-before: always;
+  }
+  .poster-container-hidden {
+      padding: 0px;
+  }
+  .poster-format-hidden {
+      margin-top: 0px;
+      width: 215mm;
+      height: 305mm;
+  }
+  .poster-format {
+    margin-left: 0px;
+    margin-top: -30px;
+    width: 215mm;
+    height: 305mm;
+  }
+}
+
+@page {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 0cm;
+  margin-right: 0cm;
+}
+@page :left {
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+@page :right {
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+.specimen-texte {
+
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+.specimen-texte2 {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+.specimen-texte3 {
+    font-family: 'nimbus_roman_no9_lbold';
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+.specimen-texte4 {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+
+.premier-mot{
+    font-family:'nimbus_roman_no9_lregular';
+    font-size: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
+
+/* FONTS */
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold';
+    src: url('fonts/nimbusromno9l-med-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-med-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-med-webfont.svg#nimbus_roman_no9_lbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    src: url('fonts/nimbusromno9l-medita-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-medita-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-medita-webfont.svg#nimbus_roman_no9_lbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lregular';
+    src: url('fonts/nimbusromno9l-reg-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-reg-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-reg-webfont.svg#nimbus_roman_no9_lregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    src: url('fonts/nimbusromno9l-regita-webfont.woff2') format('woff2'),
+         url('fonts/nimbusromno9l-regita-webfont.woff') format('woff'),
+         url('fonts/nimbusromno9l-regita-webfont.svg#nimbus_roman_no9_lRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bagnardregular';
+    src: url('fonts/bagnard-webfont.woff2') format('woff2'),
+         url('fonts/bagnard-webfont.woff') format('woff'),
+         url('fonts/bagnard-webfont.svg#bagnardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grotexregular';
+    src: url('fonts/grotex-regular-webfont.woff2') format('woff2'),
+         url('fonts/grotex-regular-webfont.woff') format('woff'),
+         url('fonts/grotex-regular-webfont.svg#grotexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixelregular';
+    src: url('fonts/mister_pixel_regular-webfont.woff2') format('woff2'),
+         url('fonts/mister_pixel_regular-webfont.woff') format('woff'),
+         url('fonts/mister_pixel_regular-webfont.svg#vtf_misterpixelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixeltools';
+    src: url('fonts/mister_pixel_tools-webfont.woff2') format('woff2'),
+         url('fonts/mister_pixel_tools-webfont.woff') format('woff'),
+         url('fonts/mister_pixel_tools-webfont.svg#vtf_misterpixeltools') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mixo';
+  src: url('fonts/VTF_Mixo.eot'); /* IE9 Compat Modes */
+  src: url('fonts/VTF_Mixo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/VTF_Mixo.woff') format('woff'), /* Modern Browsers */
+       url('fonts/VTF_Mixo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/VTF_Mixo.svg#mixo') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'savateitalique';
+    src: url('fonts/savate-italique-webfont.eot');
+    src: url('fonts/savate-italique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/savate-italique-webfont.woff2') format('woff2'),
+         url('fonts/savate-italique-webfont.woff') format('woff'),
+         url('fonts/savate-italique-webfont.ttf') format('truetype'),
+         url('fonts/savate-italique-webfont.svg#savateitalique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'savateregular';
+    src: url('fonts/savate-regular-webfont.eot');
+    src: url('fonts/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/savate-regular-webfont.woff2') format('woff2'),
+         url('fonts/savate-regular-webfont.woff') format('woff'),
+         url('fonts/savate-regular-webfont.ttf') format('truetype'),
+         url('fonts/savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*bagnard*/
+.bagnard {
+  font-family: 'bagnardregular';
+}
+
+/*mixo*/
+.mixo {
+  font-family: 'Mixo';
+}
+
+/*nimbus*/
+.nimbusregular {
+  font-family: 'nimbus_roman_no9_lregular';
+}
+
+.nimbusregularitalic {
+  font-family: 'nimbus_roman_no9_lRgIt';
+}
+
+.nimbusbold {
+  font-family: 'nimbus_roman_no9_lbold';
+}
+
+.nimbusbolditalic {
+  font-family: 'nimbus_roman_no9_lbold_italic';
+}
+
+/*grotex*/
+.grotex {
+  font-family: 'grotexregular';
+}
+
+/*mrpixel*/
+.mrpixel {
+  font-family: 'vtf_misterpixelregular';
+}
+.mrpixeltools {
+  font-family: 'vtf_misterpixeltools';
+}
+
+.savateregular {
+  font-family: 'savateregular';
+}
+
+.savateregularitalic {
+  font-family: 'savateitalique';
+}

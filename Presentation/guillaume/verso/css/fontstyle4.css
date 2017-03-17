@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold';
+    src: url('nimbusromno9l-med-webfont.woff2') format('woff2'),
+         url('nimbusromno9l-med-webfont.woff') format('woff'),
+         url('nimbusromno9l-med-webfont.svg#nimbus_roman_no9_lbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    src: url('nimbusromno9l-medita-webfont.woff2') format('woff2'),
+         url('nimbusromno9l-medita-webfont.woff') format('woff'),
+         url('nimbusromno9l-medita-webfont.svg#nimbus_roman_no9_lbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lregular';
+    src: url('nimbusromno9l-reg-webfont.woff2') format('woff2'),
+         url('nimbusromno9l-reg-webfont.woff') format('woff'),
+         url('nimbusromno9l-reg-webfont.svg#nimbus_roman_no9_lregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    src: url('nimbusromno9l-regita-webfont.woff2') format('woff2'),
+         url('nimbusromno9l-regita-webfont.woff') format('woff'),
+         url('nimbusromno9l-regita-webfont.svg#nimbus_roman_no9_lRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bagnardregular';
+    src: url('bagnard-webfont.woff2') format('woff2'),
+         url('bagnard-webfont.woff') format('woff'),
+         url('bagnard-webfont.svg#bagnardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grotexregular';
+    src: url('grotex-regular-webfont.woff2') format('woff2'),
+         url('grotex-regular-webfont.woff') format('woff'),
+         url('grotex-regular-webfont.svg#grotexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixelregular';
+    src: url('mister_pixel_regular-webfont.woff2') format('woff2'),
+         url('mister_pixel_regular-webfont.woff') format('woff'),
+         url('mister_pixel_regular-webfont.svg#vtf_misterpixelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vtf_misterpixeltools';
+    src: url('mister_pixel_tools-webfont.woff2') format('woff2'),
+         url('mister_pixel_tools-webfont.woff') format('woff'),
+         url('mister_pixel_tools-webfont.svg#vtf_misterpixeltools') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mixo';
+  src: url('VTF_Mixo.eot'); /* IE9 Compat Modes */
+  src: url('VTF_Mixo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('VTF_Mixo.woff') format('woff'), /* Modern Browsers */
+       url('VTF_Mixo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('VTF_Mixo.svg#mixo') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'savateitalique';
+    src: url('savate-italique-webfont.eot');
+    src: url('savate-italique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('savate-italique-webfont.woff2') format('woff2'),
+         url('savate-italique-webfont.woff') format('woff'),
+         url('savate-italique-webfont.ttf') format('truetype'),
+         url('savate-italique-webfont.svg#savateitalique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'savateregular';
+    src: url('savate-regular-webfont.eot');
+    src: url('savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('savate-regular-webfont.woff2') format('woff2'),
+         url('savate-regular-webfont.woff') format('woff'),
+         url('savate-regular-webfont.ttf') format('truetype'),
+         url('savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*___________________________________________________*/
+
+.yolo {
+    font-family: 'nimbus_roman_no9_lregular', sans-serif;
+    -webkit-hyphens: auto;
+    position: relative;
+    -ms-hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+
+}
+.specimen-texte {
+
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+.specimen-texte2 {
+    font-family: 'nimbus_roman_no9_lRgIt';
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+.specimen-texte3 {
+    font-family: 'nimbus_roman_no9_lbold';
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+.specimen-texte4 {
+    font-family: 'nimbus_roman_no9_lbold_italic';
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+}
+
+
+.premier-mot{
+    font-family:'nimbus_roman_no9_lregular';
+    font-size: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    margin-bottom: -20px;
+}
