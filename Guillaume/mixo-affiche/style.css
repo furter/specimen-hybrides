@@ -46,6 +46,18 @@ overflow: hidden;
 font-family: Mixo, Arial, sans-serif;
 }
 
+.intro {
+    font-family: bagnard;
+    font-size: 30px;
+    letter-spacing: 1px;
+    top: 6px;
+    color: white;
+    position:absolute;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor: pointer;
+  }
+
 .world {
   overflow: hidden;
   position: absolute;
