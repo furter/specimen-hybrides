@@ -184,6 +184,15 @@ a:visited {
     color: black;
 }
 
+.mute {
+    position: fixed;
+    font-size: 30px;
+    right: 2%;
+    bottom: 4%;
+    z-index: 3;
+    cursor: pointer;
+}
+
 .back {
     font-family: 'grotexregular';
     color: black;
@@ -203,10 +212,10 @@ a:visited {
   top: 0px;
   left: 0px;
   background: WHITE;
-  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.90);
-  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.90);
-  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.90);
-}
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.75);
+}bo
 
 .world2 {
   background-color: lightyellow;
@@ -293,7 +302,7 @@ a:visited {
 }
 
 
-
+/*
 .gradient-1 {
   width: 100%;
   height: 10%;
@@ -318,7 +327,7 @@ a:visited {
   background-position: left bottom;
   pointer-events: none;
 }
-
+*/
 
 
 .mouse {
@@ -497,11 +506,11 @@ a {
 
 .band {
  position: absolute;
- left: 140%;
- top: 70%;
- font-size: 120px;
+ left: 200px;
+ bottom: -770px;
+ font-size: 200px;
  color: black;
- line-height: 90px;
+ line-height: 100px;
  white-space: nowrap;
  text-overflow: clip;
  width: 99%;
@@ -1349,6 +1358,20 @@ margin-top: -9vh;
 margin-left: -9vh;
 }
   */
+
+.world {
+  /*overflow: hidden;*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  background: black;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
 
   .open-close {
   left: initial;

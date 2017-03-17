@@ -25,6 +25,15 @@ a:visited {
     color: black;
 }
 
+.mute {
+    position: fixed;
+    font-size: 30px;
+    right: 2%;
+    bottom: 1%;
+    z-index: 3;
+    cursor: pointer;
+}
+
 .poster-container {
     display: flex;
     /*put items vertically*/
@@ -112,14 +121,6 @@ a:visited {
     font-size: 40px;
     bottom: 0%;
     left: 1%;
-    z-index: 3;
-}
-
-#mute {
-    position: fixed;
-    font-size: 30px;
-    right: 2%;
-    bottom: 2%;
     z-index: 3;
 }
 

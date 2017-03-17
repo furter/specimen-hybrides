@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="style.css">
 	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="flow.js"></script>
+
+  <script>
+function aud_play_pause() {
+var myAudio = document.getElementById("myAudio");
+if (myAudio.paused) {
+  myAudio.play();
+} else {
+  myAudio.pause();
+}
+}
+</script>
+
 </head>
 <body>
 <div class="intro">PAP FOUNDRY</div>
@@ -33,9 +45,13 @@
 
 <div class="back"><a href="../index.html">⬅︎</a></div>
 
-<div class="world">
+<audio id="myAudio" autoplay="autoplay" class="noprint">
+<source src="../music/pixel.mp3" type='audio/mp3'>
+</audio>
 
-  <a href="javascript:window.print()">
+<div class="mute" onclick="aud_play_pause()">🎶</div>
+
+<div class="world">
 
   <div class="gradient-1">
   </div>

@@ -115,7 +115,7 @@ document.getElementById('draggable-element-5').onmousedown = function () {
 document.onmousemove = _move_elem;
 document.onmouseup = _destroy;
 
-/*mute*/
+/*mute
 
 $('document').ready(function(){
   var audio = document.getElementById('background_audio');
@@ -127,3 +127,4 @@ document.getElementById('mute').addEventListener('click', function (e)
     e.preventDefault();
 }, false);
 });
+*/

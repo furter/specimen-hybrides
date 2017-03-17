@@ -16,6 +16,8 @@ div {
 /*Homepage*/
 
 a {
+  color: black;
+  cursor: auto;
   text-decoration: none;
 }
 
@@ -51,7 +53,7 @@ a:visited {
 .menu-bagnard {
     order: 1;
     font-family: bagnard;
-    cursor: url(img/diamond.png), auto;
+    /*cursor: url(img/diamond.png), auto;*/
 }
 
 .menu-bagnard:hover {
@@ -63,7 +65,7 @@ a:visited {
     line-height: 168%;;
     font-family: mixo;
     font-size: 150px;
-    cursor: url(img/snake.png), auto;
+    /*cursor: url(img/snake.png), auto;*/
 }
 
 .menu-mixo:hover {
@@ -73,7 +75,7 @@ a:visited {
 .menu-nimbus {
     order: 5;
     font-family: nimbusregular;
-    cursor: url(img/Enchanted_Book.png), auto;
+    /*cursor: url(img/Enchanted_Book.png), auto;*/
 }
 
 .menu-nimbus:hover {
@@ -83,7 +85,7 @@ a:visited {
 .menu-grotex {
     order: 2;
     font-family: grotex;
-    cursor: url(img/swiss.gif), auto;
+    /*cursor: url(img/swiss.gif), auto;*/
 }
 
 .menu-grotex:hover {
@@ -93,7 +95,7 @@ a:visited {
 .menu-mrpixel {
     order: 4;
     font-family: mrpixel;
-    cursor: url(img/smiley.gif), auto;
+    /*cursor: url(img/smiley.gif), auto;*/
 }
 
 .menu-mrpixel:hover {
@@ -103,7 +105,7 @@ a:visited {
 .menu-savate {
     order: 6;
     font-family: savateregular;
-    cursor: url(img/bruce.png), auto;
+    /*cursor: url(img/bruce.png), auto;*/
 }
 
 .menu-savate:hover {
