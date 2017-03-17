@@ -1443,6 +1443,10 @@ box-shadow: none;
 
 @media print {
 
+  .body {
+    display: none;
+  }
+
   .noprint {
     display: none;
   }
@@ -1453,14 +1457,6 @@ box-shadow: none;
     margin-top: -30px;
     width: 215mm;
     height: 305mm;
-  }
-
-  .back {
-      display: none;
-  }
-
-  .intro {
-      display: none;
   }
 }
 
