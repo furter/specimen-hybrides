@@ -154,31 +154,31 @@
 
     overflow: hidden;
     position: absolute;
-    background: white; 
+    background: white;
 }
 
 .specimen-texte2 {
     font-family: 'savateitalique';
     overflow: hidden;
     position: absolute;
-    background: transparent; 
+    background: transparent;
 }
 
 .specimen-texte3 {
     font-family: 'savateregular';
     overflow: hidden;
     position: absolute;
-    background: transparent; 
+    background: transparent;
 }
 
 .premier-mot1{
-    font-family:'savateregular'; 
+    font-family:'savateregular';
     font-size: 15px;
     margin-left: 0px;
 }
 
 .premier-mot{
-    font-family:'savateregular'; 
+    font-family:'savateregular';
     font-size: 10px;
     margin-left: 0px;
 }
