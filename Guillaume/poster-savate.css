@@ -223,6 +223,19 @@ a {
   div.chapter {
      page-break-before: always;
   }
+  .poster-container-hidden {
+      padding: 0px;
+  }
+  .poster-format-hidden {
+      margin-top: 0%;
+      width: 810px;
+      height: 1145px;
+  }
+  .poster-format {
+    margin-top: -3%;
+    width: 810px;
+    height: 1145px;
+  }
 }
 
 @page {
