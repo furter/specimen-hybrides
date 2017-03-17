@@ -108,7 +108,7 @@ a:visited {
     word-wrap: break-word;
     hyphens: auto;
     overflow: hidden;
-    background-color: black;
+    background-color: yellow;
     margin: auto;
     margin-top: 4%;
     width: 610px;
@@ -242,8 +242,7 @@ a {
 }
 
 @media screen {
-
-  .img-fake-brucelee {
+    .img-fake-brucelee {
     display: none;
   }
 }
@@ -251,10 +250,10 @@ a {
 /*verso*/
 
 .specimen-texte {
-
+    font-family: 'savateregular';
     overflow: hidden;
     position: absolute;
-    background: white;
+    background-color: transparent;
 }
 
 .specimen-texte2 {
