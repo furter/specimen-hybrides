@@ -154,18 +154,18 @@
     overflow: hidden;
     overflow-wrap: break-word;
     position: absolute;
-    background: white; 
+    background: white;
 }
 
 .specimen-texte2 {
     font-family: 'grotexregular';
     overflow-wrap: break-word;
     position: absolute;
-    background: white; 
+    background: white;
 }
 
 .premier-mot{
-    font-family:'grotexregular'; 
+    font-family:'grotexregular';
     font-size: 20px;
     margin-left: 0px;
 
@@ -173,7 +173,7 @@
 }
 
 .premier-mot2{
-    font-family:'grotexregular'; 
+    font-family:'grotexregular';
     font-size: 10px;
     margin-left: 0px;
 }
