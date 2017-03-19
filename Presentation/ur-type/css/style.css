@@ -1,16 +1,3 @@
-/*
-Theme Name: untold stories
-Author: Kris Borgerink
-Author URI: http://www.krisborgerink.nl/
-Description: Custom build theme for untold stories
-Version: 1.0
-*/
-
-
-@import "./assets/stylesheets/style-base.css";
-/*@import "./assets/stylesheets/font-awesome.min.css";*/
-@import "./assets/stylesheets/fonts.css";
-@import "./assets/fonts/courier-prime/courier-prime.css";
 
 /* general
 --------------------------------------------------*/
@@ -277,13 +264,17 @@ a:hover {
 /*    background: #e6e3e3;*/
 /*    background: red;*/
     border-radius: 4px;
-    }
+}
 
 .mySlider {
     width: 150px;
     margin-top: -30px;
     margin-left: 180px;
-    
+}
+.mySlider2 {
+    width: 150px;
+    margin-top: -30px;
+    margin-left: 180px;
 }
 .container {
     margin-top: 50px;
@@ -925,21 +916,19 @@ article {
 ::-webkit-scrollbar-track {
       background-color: black;
 } /* the new scrollbar will have a flat appearance with the set background color */
- 
+
 ::-webkit-scrollbar-thumb {
-      background-color: pink; 
+      background-color: pink;
 } /* this will style the thumb, ignoring the track */
- 
+
 ::-webkit-scrollbar-button {
       background-color: black;
       height: 20px;
 } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
- 
+
 ::-webkit-scrollbar-corner {
       background-color: black;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-

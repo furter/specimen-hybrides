@@ -120,43 +120,43 @@
 
 
 .colonne1 {
-    font-family: 'lilgroteskregular', sans-serif;   
-    color:black; 
+    font-family: 'lilgroteskregular', sans-serif;
+    color:black;
     font-size:20px;
 }
 
 .colonne2 {
-    font-family: 'playfair_displayregular', serif;  
-    color:black; 
+    font-family: 'playfair_displayregular', serif;
+    color:black;
     font-size:70px;
     line-height: 80px;
 }
 
 .colonne3 {
-    font-family: 'solide_miragemono', serif;    
-    color:black; 
+    font-family: 'solide_miragemono', serif;
+    color:black;
     font-size:130px;
     line-height: 120px;
 
 }
 
 .colonne4 {
-    font-family: 'bagnardregular', serif;   
-    color:black; 
+    font-family: 'bagnardregular', serif;
+    color:black;
     font-size:40px;
     line-height: 47.5px;
 }
 
 .colonne5 {
-    font-family: 'panameralight', serif;    
-    color:black; 
+    font-family: 'panameralight', serif;
+    color:black;
     font-size:90px;
     line-height: 90px;
 }
 
 .colonne6 {
     font-family: 'osp_le-patin-helvetemedium';
-    color:black; 
+    color:black;
     font-size:20px;
     line-height: 25px;
 
@@ -164,7 +164,7 @@
 
 .colonne7 {
     font-family: 'blocusregular';
-    color:black; 
+    color:black;
     font-size:200px;
     line-height: 170px;
 
@@ -172,6 +172,6 @@
 
 .colonne8 {
     font-family: 'bluu_nextbold';
-    color:black; 
+    color:black;
     font-size:70px;
 }
