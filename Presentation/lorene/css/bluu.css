@@ -1,16 +1,9 @@
-@import url(http://openfontlibrary.org/face/grupo3);
-
-
-
 @font-face {
-    font-family: 'bluu';
-    src: url('../fonts/bluenext/bluunext-bold-webfont.woff2') format('woff2'),
-         url('../fonts/bluenext/bluunext-bold-webfont.woff') format('woff'),
-         url('../fonts/bluenext/bluunext-bold.ttf') format('truetype'),
-         url('../fonts/bluenext/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: 'bluu';
+    src: url('../fonts/bluenext/bluunext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bluenext/bluunext-bold-webfont.woff') format('woff'),
+         url('../fonts/bluenext/bluunext-bold.ttf') format('truetype'),
+         url('../fonts/bluenext/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
 }
 
 /*pab*/
@@ -20,7 +13,7 @@
 }
 
 .btn {
-    font-family: 'bluunext-bold';
+    font-family: 'bluu';
     text-decoration: none;
     color: #xxxxxx;
     color: grey;
@@ -161,13 +154,13 @@ p {
 
 
 .blue p {
-    font-family: 'bluunext-bold';
+    font-family: 'bluu';
     font-size: 8em;
   text-align:center;
 }
 
 .first{
-    
+
   background-size: cover;
   background-image:url('../img/frank.gif');
   color:white;
@@ -178,13 +171,13 @@ p {
 
 .first p {
 
-  font-family: 'bluunext-bold';
+  font-family: 'bluu';
   margin: auto;
   margin-top: calc(50vh - 0.7em)
 }
 
 .yellow {
-  font-family:'bluunext-bold';
+  font-family:'bluu';
   font-size: 300px;
   background-size: cover;
   background-color:#16F086;
@@ -205,7 +198,7 @@ p {
   background-color: black;
 }
 .pink p {
-   font-family:'bluunext-bold';
+   font-family:'bluu';
    font-weight: normal;
    font-style: normal;
    font-size: 5em;
@@ -220,18 +213,18 @@ p:focus {
 }
 
 #container {
-  font-family:'bluunext-bold';
+  font-family:'bluu';
   position:center;
     margin-top: calc(50vh - 0.7em);
     font-size:5em;
     text-align:center;
-    color:#16F086; 
+    color:#16F086;
 
 }
 
 
 .orange p {
-  font-family:'bluunext-bold';
+  font-family:'bluu';
 
 }
 
@@ -240,7 +233,7 @@ p:focus {
 }
 
 .violet p{
-   font-family:'bluunext-bold';
+   font-family:'bluu';
    font-weight: normal;
    font-style: normal;
    font-size: 2em;

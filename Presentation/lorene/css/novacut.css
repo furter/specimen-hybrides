@@ -1,14 +1,13 @@
-@import url(http://openfontlibrary.org/face/grupo3);
-
-
-
 @font-face {
-    font-family: 'nova_cutbook';
-    src: url('../fonts/novacut/novacut_-_copie-webfont.woff2') format('woff2'),
-         url('../fonts/novacut/novacut_-_copie-webfont.woff') format('woff');
+    font-family: 'novacut';
+    src:    url('../fonts/novacut-webfont.eot');
+    src:    url('../fonts/novacut-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/novacut/novacut-webfont.woff2') format('woff2'),
+            url('../fonts/novacut/novacut-webfont.woff') format('woff'),
+            url('../fonts/novacut-webfont.ttf') format('truetype'),
+            url('../fonts/novacut-webfont.svg#nova_cutbook') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*pab*/
@@ -165,7 +164,7 @@ p {
 }
 
 .first{
-    
+
   background-size: cover;
   background-image:url('../img/bonpsychose.gif');
   color:white;
@@ -223,7 +222,7 @@ p:focus {
     margin-top: calc(50vh - 0.7em);
     font-size:5em;
     text-align:center;
-    color:#FF0000; 
+    color:#FF0000;
 
 }
 

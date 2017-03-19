@@ -1,18 +1,15 @@
 @font-face {
-    font-family: 'Solide Mirage_Etroit';
-    src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
-    src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff') format('woff'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff2') format('woff2'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.ttf') format('truetype'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.svg#svgFontName') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'bluu';
+    src: url('../fonts/bluenext/bluunext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bluenext/bluunext-bold-webfont.woff') format('woff'),
+         url('../fonts/bluenext/bluunext-bold.ttf') format('truetype'),
+         url('../fonts/bluenext/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
 }
 
+
 * {
-  background:white!important;
-  font-family: 'Solide Mirage_Etroit';
+    background:white!important;
+    font-family:'bluu';
 }
 
 .no-print {
@@ -43,10 +40,10 @@
     height: 20cm;
     position:relative;
     left: 0cm !important;
-    font-size: 80px!important;
+    font-size: 90px!important;
     top: 0cm;
     margin:auto;
-    padding-top: 8cm;
+    padding-top: 12cm;
 }
 
 .first p {
@@ -58,7 +55,7 @@
     width: 100%;
 }
 
-.yellow, .blue, .glyph-print{
+.yellow, .blue{
     position:relative;
     left:0 !important;
     width:20cm !important;

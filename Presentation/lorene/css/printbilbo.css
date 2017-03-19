@@ -1,18 +1,19 @@
 @font-face {
-    font-family: 'Solide Mirage_Etroit';
-    src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
-    src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff') format('woff'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff2') format('woff2'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.ttf') format('truetype'),
-            url('../fonts/solidmirage/Solide_Mirage-Etroit_web.svg#svgFontName') format('svg');
-    font-weight: normal;
+    font-family:'BilboINC';
+    src: url('../fonts/bilbo/BilboINCRegular.eot');
+    src: url('../fonts/bilbo/BilboINCRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bilbo/BilboINCRegular.woff2') format('woff2'),
+        url('../fonts/bilbo/BilboINCRegular.woff') format('woff'),
+        url('../fonts/bilbo/BilboINCRegular.svg#BilboINCRegular') format('svg');
+    font-weight: 400;
     font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
 }
 
 * {
-  background:white!important;
-  font-family: 'Solide Mirage_Etroit';
+    background:white!important;
+    font-family:'BilboINC';
 }
 
 .no-print {
@@ -43,10 +44,10 @@
     height: 20cm;
     position:relative;
     left: 0cm !important;
-    font-size: 80px!important;
+    font-size: 90px!important;
     top: 0cm;
     margin:auto;
-    padding-top: 8cm;
+    padding-top: 12cm;
 }
 
 .first p {
@@ -58,7 +59,7 @@
     width: 100%;
 }
 
-.yellow, .blue, .glyph-print{
+.yellow, .blue{
     position:relative;
     left:0 !important;
     width:20cm !important;

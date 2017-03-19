@@ -1,18 +1,14 @@
-@import url(http://openfontlibrary.org/face/grupo3);
-
-
-
 @font-face {
-    font-family:'BilboINC';
-    src: url('../fonts/bilbo/BilboINC Regular.eot');
-    src: url('../fonts/bilbo/BilboINC Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/bilbo/BilboINC Regular.woff2') format('woff2'),
-        url('../fonts/bilbo/BilboINC Regular.woff') format('woff'),
-        url('../fonts/bilbo/BilboINC Regular.svg#BilboINC Regular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: condensed;
-    unicode-range: U+0020-02DC;
+    font-family:'BilboINC';
+    src: url('../fonts/bilbo/BilboINCRegular.eot');
+    src: url('../fonts/bilbo/BilboINCRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bilbo/BilboINCRegular.woff2') format('woff2'),
+        url('../fonts/bilbo/BilboINCRegular.woff') format('woff'),
+        url('../fonts/bilbo/BilboINCRegular.svg#BilboINCRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
 }
 
 /*pab*/
@@ -50,7 +46,7 @@
     opacity:0;
     float:right;
     width: 100%;
-    height: 400px;
+    height: 150px;
     border-radius: 12px;
     transition: visibility linear 0.2s, opacity 0.2s linear;
 }
@@ -64,7 +60,7 @@
 
 .hover-over .show-me {
     padding-top: 35px;
-    width: 18em;
+    width: 280px;
     margin: auto;
     height: 30px;
 
@@ -170,7 +166,7 @@ p {
 }
 
 .first{
-    
+
   background-size: cover;
   background-image:url('../img/lebowski.gif');
   color:white;
@@ -228,7 +224,7 @@ p:focus {
     margin-top: calc(50vh - 0.7em);
     font-size:7em;
     text-align:center;
-    color:#3533FB; 
+    color:#3533FB;
 
 }
 

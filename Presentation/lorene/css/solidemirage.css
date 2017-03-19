@@ -1,7 +1,3 @@
-@import url(http://openfontlibrary.org/face/grupo3);
-
-
-
 @font-face {
     font-family: 'Solide Mirage_Etroit';
     src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
@@ -166,23 +162,23 @@ p {
 
   }
 .inside-slide p:nth-child(2){
-  font-size:120px; 
+  font-size:120px;
   line-height:140px;
 }
 
- 
+
 .inside-slide p:nth-child(3){
-  font-size:70px; 
+  font-size:70px;
   line-height:110px;
 }
 
 .inside-slide p:nth-child(4){
-  font-size:70px; 
+  font-size:70px;
   line-height:90px;
 
    }
 .inside-slide p:nth-child(5){
-  font-size:70px; 
+  font-size:70px;
   line-height:110px;
 }
 
@@ -194,13 +190,14 @@ p {
 }
 
 .first{
-    
+
   background-size: cover;
   background-image:url('../img/lolita-solide-mirage.gif');
   color:white;
   font-size: 8em;
   display: -webkit-flex;
   display: flex;
+
 }
 
 .first p {
@@ -253,7 +250,7 @@ p:focus {
     margin-top: calc(50vh - 0.7em);
     font-size:5em;
     text-align:center;
-    color:#ffcce6; 
+    color:#ffcce6;
 
 }
 
