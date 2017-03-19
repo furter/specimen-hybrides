@@ -203,39 +203,44 @@ a {
 
 
 @media print {
-
-  .open-close {
-    display: none;
-  }
-
-  .noprint  {
-    display: none;
-  }
-
-  .back {
-      display: none;
-  }
-
-  .header, .footer, nav, .etc {
-    display: none;
-  }
-  div.chapter {
-     page-break-before: always;
-  }
-  .poster-container-hidden {
-      padding: 0px;
-  }
-  .poster-format-hidden {
-      margin-top: 0px;
-      width: 215mm;
-      height: 305mm;
-  }
-  .poster-format {
-    margin-left: 0px;
-    margin-top: -30px;
-    width: 215mm;
-    height: 305mm;
-  }
+    body {
+        background-color: transparent !important;
+    }
+    .open-close {
+        display: none;
+    }
+    .noprint  {
+        display: none;
+    }
+    .intro {
+        display: none;
+    }
+    .back {
+        display: none;
+    }
+    .header, .footer, nav, .etc {
+        display: none;
+    }
+    .poster-container {
+        padding: 0px;
+    }
+    .poster-container-hidden {
+        padding: 0px;
+        display: block;
+        justify-content: left;
+        align-items: left;
+    }
+    .poster-format-hidden {
+        margin-top: 0px;
+        width: 215mm;
+        height: 305mm;
+    }
+    .poster-format {
+        margin-left: 0px;
+        margin-top: -30px;
+        width: 215mm;
+        height: 305mm;
+    }
 }
 
 @page {
@@ -303,9 +308,6 @@ a {
 
 }
 
-
-
-
 @font-face {
     font-family: 'nimbus_roman_no9_lbold_italic';
     src: url('fonts/nimbusromno9l-medita-webfont.woff2') format('woff2'),
@@ -316,9 +318,6 @@ a {
 
 }
 
-
-
-
 @font-face {
     font-family: 'nimbus_roman_no9_lregular';
     src: url('fonts/nimbusromno9l-reg-webfont.woff2') format('woff2'),
@@ -328,9 +327,6 @@ a {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'nimbus_roman_no9_lRgIt';
@@ -352,9 +348,6 @@ a {
 
 }
 
-
-
-
 @font-face {
     font-family: 'grotexregular';
     src: url('fonts/grotex-regular-webfont.woff2') format('woff2'),
@@ -365,9 +358,6 @@ a {
 
 }
 
-
-
-
 @font-face {
     font-family: 'vtf_misterpixelregular';
     src: url('fonts/mister_pixel_regular-webfont.woff2') format('woff2'),
@@ -377,9 +367,6 @@ a {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'vtf_misterpixeltools';
@@ -400,7 +387,6 @@ a {
        url('fonts/VTF_Mixo.svg#mixo') format('svg'); /* Legacy iOS */
 }
 
-
 @font-face {
     font-family: 'savateitalique';
     src: url('fonts/savate-italique-webfont.eot');
@@ -413,9 +399,6 @@ a {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'savateregular';
