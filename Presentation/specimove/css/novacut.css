@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'novacut';
-    src:    url('../fonts/novacut-webfont.eot');
-    src:    url('../fonts/novacut-webfont.eot?#iefix') format('embedded-opentype'),
+    src:    url('../fonts/novacut/novacut-webfont.eot');
+    src:    url('../fonts/novacut/novacut-webfont.eot?#iefix') format('embedded-opentype'),
             url('../fonts/novacut/novacut-webfont.woff2') format('woff2'),
             url('../fonts/novacut/novacut-webfont.woff') format('woff'),
-            url('../fonts/novacut-webfont.ttf') format('truetype'),
-            url('../fonts/novacut-webfont.svg#nova_cutbook') format('svg');
+            url('../fonts/novacut/novacut-webfont.ttf') format('truetype'),
+            url('../fonts/novacut/novacut-webfont.svg#nova_cutbook') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,9 @@
 .hover-over .btn {
     /*display: none;*/
 }
-
+* {
+    font-family: 'novacut';
+}
 .btn {
     font-family: 'novacut';
     text-decoration: none;

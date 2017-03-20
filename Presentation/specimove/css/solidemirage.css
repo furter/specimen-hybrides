@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Solide Mirage_Etroit';
-    src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
+    font-family: 'Solide_Mirage_Etroit';
+    src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot');
     src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
             url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff') format('woff'),
             url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff2') format('woff2'),
@@ -17,7 +17,7 @@
 }
 
 .btn {
-    font-family: 'Solide Mirage_Etroit';
+    font-family: 'Solide_Mirage_Etroit';
     text-decoration: none;
     color: #xxxxxx;
     color: grey;
@@ -184,7 +184,7 @@ p {
 
 
 .blue p {
-    font-family: 'Solide Mirage_Etroit';
+    font-family: 'Solide_Mirage_Etroit';
     font-size: 8em;
   text-align:center;
 }
@@ -202,13 +202,13 @@ p {
 
 .first p {
 
-  font-family: 'Solide Mirage_Etroit';
+  font-family: 'Solide_Mirage_Etroit';
   margin: auto;
   margin-top: calc(50vh - 0.7em)
 }
 
 .yellow {
-  font-family:'Solide Mirage_Etroit';
+  font-family:'Solide_Mirage_Etroit';
   font-size: 300px;
   background-size: cover;
   background-color:#ffcce6;
@@ -230,7 +230,7 @@ p {
   background-color: black;
 }
 .pink p {
-   font-family:'Solide Mirage_Etroit';
+   font-family:'Solide_Mirage_Etroit';
    font-weight: normal;
    font-style: normal;
    font-size: 5em;
@@ -245,7 +245,7 @@ p:focus {
 }
 
 #container {
-  font-family:'Solide Mirage_Etroit';
+  font-family:'Solide_Mirage_Etroit';
   position:center;
     margin-top: calc(50vh - 0.7em);
     font-size:5em;
@@ -256,7 +256,7 @@ p:focus {
 
 
 .orange p {
-  font-family:'Solide Mirage_Etroit';
+  font-family:'Solide_Mirage_Etroit';
 
 }
 
@@ -265,7 +265,7 @@ p:focus {
 }
 
 .violet p{
-   font-family:'Solide Mirage_Etroit';
+   font-family:'Solide_Mirage_Etroit';
    font-weight: normal;
    font-style: normal;
    font-size: 2em;

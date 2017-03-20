@@ -5,7 +5,7 @@
             url('../fonts/novacut/novacut-webfont.woff2') format('woff2'),
             url('../fonts/novacut/novacut-webfont.woff') format('woff'),
             url('../fonts/novacut/novacut-webfont.ttf') format('truetype'),
-            url('../fonts/novacut/novacut-webfont.svg#nova_cutbook') format('svg');
+            url('../fonts/novacut/novacut-webfont.svg#novacut-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -89,7 +89,6 @@
     width: 100%;
     position:relative;
     left:0cm;
-    font-family:'BilboINC';
 }
 .inside-slide p{
     width: 100%;

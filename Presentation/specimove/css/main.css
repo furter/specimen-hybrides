@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'regloregular';
+    font-family: 'reglo-bold';
     src:    url('../fonts/reglo/reglo-bold-webfont.eot');
     src:    url('../fonts/reglo/reglo-bold-webfont.eot?#iefix') format('embedded-opentype'),
             url('../fonts/reglo/reglo-bold-webfont.woff2') format('woff2'),
@@ -24,8 +24,8 @@
 }
 
 @font-face {
-    font-family: 'Solide Mirage_Etroit';
-    src:    url('../fonts/solidmirage/SolideMirage/Etroit/Solide_Mirage-Etroit_web.eot');
+    font-family: 'Solide_Mirage_Etroit';
+    src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot');
     src:    url('../fonts/solidmirage/Solide_Mirage-Etroit_web.eot?#iefix') format('embedded-opentype'),
             url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff') format('woff'),
             url('../fonts/solidmirage/Solide_Mirage-Etroit_web.woff2') format('woff2'),
@@ -37,12 +37,12 @@
 
 @font-face {
     font-family: 'novacut';
-    src:    url('../fonts/novacut-webfont.eot');
-    src:    url('../fonts/novacut-webfont.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/novacut/novacut-webfont.woff2') format('woff2'),
-            url('../fonts/novacut/novacut-webfont.woff') format('woff'),
-            url('../fonts/novacut-webfont.ttf') format('truetype'),
-            url('../fonts/novacut-webfont.svg#nova_cutbook') format('svg');
+    src:    url('https://furter.github.io/specimen-hybrides/Presentation/specimove/fonts/novacut/novacut-webfont.eot');
+    src:    url('https://furter.github.io/specimen-hybrides/Presentation/specimove/fonts/novacut/novacut-webfont.eot?#iefix') format('embedded-opentype'),
+            url('https://furter.github.io/specimen-hybrides/Presentation/specimove/fonts/novacut/novacut/novacut-webfont.woff2') format('woff2'),
+            url('https://furter.github.io/specimen-hybrides/Presentation/specimove/fonts/novacut/novacut/novacut-webfont.woff') format('woff'),
+            url('https://furter.github.io/specimen-hybrides/Presentation/specimove/fonts/novacut/novacut-webfont.ttf') format('truetype'),
+            url('https://furter.github.io/specimen-hybrides/Presentation/specimove/fonts/novacut/novacut-webfont.svg#novacut-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -56,7 +56,7 @@
 }
 
 @font-face {
-    font-family: 'bluu';
+    font-family: 'bluu-italic';
     src: url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
          url('../fonts/bluunext-bolditalic-webfont.woff') format('woff'),
          url('../fonts/bluunext-bolditalic.ttf') format('truetype'),
@@ -127,7 +127,7 @@ body {
     margin:120px;
 }
 .menu-reglo {
-            font-family: 'regloregular';
+            font-family: 'reglo-bold';
             font-size: 100px;
             line-height:150px;
 
@@ -143,7 +143,7 @@ body {
             line-height:150px;
 }
 .menu-reglo4 {
-            font-family: 'Solide Mirage_Etroit';
+            font-family: 'Solide_Mirage_Etroit';
             font-size: 80px;
             line-height:150px;
 }
